@@ -214,6 +214,41 @@ SHIFT</text>
 <text x="-1.778" y="-9.398" size="1.27" layer="21">GND</text>
 <text x="-2.032" y="8.382" size="1.27" layer="21">VINS</text>
 </package>
+<package name="XBEE_EXPLORER_REG'D">
+<wire x1="-13.97" y1="-17.145" x2="-13.97" y2="17.145" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="17.145" x2="13.97" y2="17.145" width="0.127" layer="21"/>
+<wire x1="13.97" y1="17.145" x2="13.97" y2="-17.145" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-17.145" x2="-13.97" y2="-17.145" width="0.127" layer="21"/>
+<pad name="GND3" x="-6.35" y="11.938" drill="1"/>
+<pad name="3.3V" x="-6.35" y="9.398" drill="1"/>
+<pad name="OUT" x="-6.35" y="6.858" drill="1"/>
+<pad name="IN" x="-6.35" y="4.318" drill="1"/>
+<pad name="DIO12" x="-6.35" y="1.778" drill="1"/>
+<pad name="RST" x="-6.35" y="-0.762" drill="1"/>
+<pad name="RSSI" x="-6.35" y="-3.302" drill="1"/>
+<pad name="DIO11" x="-6.35" y="-5.842" drill="1"/>
+<pad name="RES2" x="-6.35" y="-8.382" drill="1"/>
+<pad name="DTR" x="-6.35" y="-10.922" drill="1"/>
+<pad name="GND1" x="-6.35" y="-13.462" drill="1"/>
+<pad name="5V1" x="6.35" y="-13.462" drill="1"/>
+<pad name="DIO4" x="6.35" y="-10.922" drill="1"/>
+<pad name="CTS" x="6.35" y="-8.382" drill="1"/>
+<pad name="DIO9" x="6.35" y="-5.842" drill="1"/>
+<pad name="RES1" x="6.35" y="-3.302" drill="1"/>
+<pad name="DIO5" x="6.35" y="-0.762" drill="1"/>
+<pad name="RTS" x="6.35" y="1.778" drill="1"/>
+<pad name="DIO3" x="6.35" y="4.318" drill="1"/>
+<pad name="DIO2" x="6.35" y="6.858" drill="1"/>
+<pad name="DIO1" x="6.35" y="9.398" drill="1"/>
+<pad name="DIO0" x="6.35" y="11.938" drill="1"/>
+<pad name="CORNER2" x="-6.35" y="-15.875" drill="1"/>
+<pad name="GND2" x="-3.81" y="-15.875" drill="1"/>
+<pad name="5V2" x="-1.27" y="-15.875" drill="1"/>
+<pad name="DOUT" x="1.27" y="-15.875" drill="1"/>
+<pad name="DIN" x="3.81" y="-15.875" drill="1"/>
+<pad name="CORNER1" x="6.35" y="-15.875" drill="1"/>
+<text x="-2.286" y="1.016" size="1.27" layer="21">XBEE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ITSY_BITSY_M4">
@@ -360,6 +395,41 @@ BITSY
 <pin name="HV" x="12.7" y="6.35" length="middle" rot="R180"/>
 <text x="-2.54" y="0" size="1.27" layer="94"> LVL
 SHFT</text>
+</symbol>
+<symbol name="XBEE_XPLORER_REGD">
+<wire x1="-13.97" y1="-17.145" x2="-13.97" y2="17.145" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="17.145" x2="13.97" y2="17.145" width="0.254" layer="94"/>
+<wire x1="13.97" y1="17.145" x2="13.97" y2="-17.145" width="0.254" layer="94"/>
+<wire x1="13.97" y1="-17.145" x2="-13.97" y2="-17.145" width="0.254" layer="94"/>
+<pin name="GND3" x="-18.9484" y="12.7" length="middle"/>
+<pin name="3.3V" x="-18.9484" y="10.16" length="middle"/>
+<pin name="OUT" x="-18.9484" y="7.62" length="middle"/>
+<pin name="IN" x="-18.9484" y="5.08" length="middle"/>
+<pin name="DIO12" x="-18.9484" y="2.54" length="middle"/>
+<pin name="RST" x="-18.9484" y="0" length="middle"/>
+<pin name="RSSI" x="-18.9484" y="-2.54" length="middle"/>
+<pin name="DIO11" x="-18.9484" y="-5.08" length="middle"/>
+<pin name="RES2" x="-18.9484" y="-7.62" length="middle"/>
+<pin name="DTR" x="-18.9484" y="-10.16" length="middle"/>
+<pin name="GND1" x="-18.9484" y="-12.7" length="middle"/>
+<pin name="5V1" x="19.0754" y="-13.1318" length="middle" rot="R180"/>
+<pin name="DIO4" x="19.0754" y="-10.5918" length="middle" rot="R180"/>
+<pin name="CTS" x="19.0754" y="-8.0518" length="middle" rot="R180"/>
+<pin name="DIO9" x="19.0754" y="-5.5118" length="middle" rot="R180"/>
+<pin name="RES1" x="19.0754" y="-2.9718" length="middle" rot="R180"/>
+<pin name="DIO5" x="19.0754" y="-0.4318" length="middle" rot="R180"/>
+<pin name="RTS" x="19.0754" y="2.1082" length="middle" rot="R180"/>
+<pin name="DIO3" x="19.0754" y="4.6482" length="middle" rot="R180"/>
+<pin name="DIO2" x="19.0754" y="7.1882" length="middle" rot="R180"/>
+<pin name="DIO1" x="19.0754" y="9.7282" length="middle" rot="R180"/>
+<pin name="DIO0" x="19.0754" y="12.2682" length="middle" rot="R180"/>
+<pin name="5V2" x="-1.27" y="-22.352" length="middle" rot="R90"/>
+<pin name="DOUT" x="1.27" y="-22.352" length="middle" rot="R90"/>
+<pin name="GND2" x="-3.81" y="-22.352" length="middle" rot="R90"/>
+<pin name="CNR2" x="-6.35" y="-22.352" length="middle" rot="R90"/>
+<pin name="DIN" x="3.81" y="-22.352" length="middle" rot="R90"/>
+<pin name="CNR1" x="6.35" y="-22.352" length="middle" rot="R90"/>
+<text x="-1.778" y="3.302" size="1.27" layer="94">XBEE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -543,6 +613,48 @@ SHFT</text>
 <connect gate="G$1" pin="GND_L" pad="GND_L"/>
 <connect gate="G$1" pin="HV" pad="HV"/>
 <connect gate="G$1" pin="LV" pad="LV"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="XBEE_XPLORER_REG">
+<gates>
+<gate name="G$1" symbol="XBEE_XPLORER_REGD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XBEE_EXPLORER_REG'D">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="5V1" pad="5V1"/>
+<connect gate="G$1" pin="5V2" pad="5V2"/>
+<connect gate="G$1" pin="CNR1" pad="CORNER1"/>
+<connect gate="G$1" pin="CNR2" pad="CORNER2"/>
+<connect gate="G$1" pin="CTS" pad="CTS"/>
+<connect gate="G$1" pin="DIN" pad="DIN"/>
+<connect gate="G$1" pin="DIO0" pad="DIO0"/>
+<connect gate="G$1" pin="DIO1" pad="DIO1"/>
+<connect gate="G$1" pin="DIO11" pad="DIO11"/>
+<connect gate="G$1" pin="DIO12" pad="DIO12"/>
+<connect gate="G$1" pin="DIO2" pad="DIO2"/>
+<connect gate="G$1" pin="DIO3" pad="DIO3"/>
+<connect gate="G$1" pin="DIO4" pad="DIO4"/>
+<connect gate="G$1" pin="DIO5" pad="DIO5"/>
+<connect gate="G$1" pin="DIO9" pad="DIO9"/>
+<connect gate="G$1" pin="DOUT" pad="DOUT"/>
+<connect gate="G$1" pin="DTR" pad="DTR"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="GND3" pad="GND3"/>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="RES1" pad="RES1"/>
+<connect gate="G$1" pin="RES2" pad="RES2"/>
+<connect gate="G$1" pin="RSSI" pad="RSSI"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RTS" pad="RTS"/>
 </connects>
 <technologies>
 <technology name=""/>
