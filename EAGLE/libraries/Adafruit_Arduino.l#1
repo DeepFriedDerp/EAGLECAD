@@ -804,6 +804,24 @@ SHFT</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="3V/5V_REGULATOR">
+<gates>
+<gate name="G$1" symbol="3V/5V_REGULATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5V/3V_REGULATOR">
+<connects>
+<connect gate="G$1" pin="V_IN+" pad="V_IN+"/>
+<connect gate="G$1" pin="V_IN-" pad="V_IN-"/>
+<connect gate="G$1" pin="V_OUT+" pad="V_OUT+"/>
+<connect gate="G$1" pin="V_OUT-" pad="V_OUT-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

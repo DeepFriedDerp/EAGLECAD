@@ -750,6 +750,32 @@ SHFT</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="I2C_SAFE_BIFIR_LVLSHIFTER">
+<gates>
+<gate name="G$1" symbol="4_CH_LVLSHIFTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="I2C_SAFE_BIDIR_LVLSHIFTER">
+<connects>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="HV" pad="HV"/>
+<connect gate="G$1" pin="LV" pad="LV"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

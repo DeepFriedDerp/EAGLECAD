@@ -442,7 +442,7 @@ SHFT</text>
 <pin name="CNR1" x="6.35" y="-22.352" length="middle" rot="R90"/>
 <text x="-1.778" y="3.302" size="1.27" layer="94">XBEE</text>
 </symbol>
-<symbol name="FET-N">
+<symbol name="3.3V_NCH_FET">
 <description>N-Type MOS Field Effect Transistor (MOSFET)</description>
 <pin name="G" x="-10.16" y="0" length="middle"/>
 <pin name="D" x="5.08" y="12.7" length="middle" rot="R270"/>
@@ -685,6 +685,23 @@ SHFT</text>
 <connect gate="G$1" pin="RSSI" pad="RSSI"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
 <connect gate="G$1" pin="RTS" pad="RTS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V_NCH_FET">
+<gates>
+<gate name="G$1" symbol="3.3V_NCH_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3.3VTRANSISTOR">
+<connects>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="S" pad="S"/>
 </connects>
 <technologies>
 <technology name=""/>
