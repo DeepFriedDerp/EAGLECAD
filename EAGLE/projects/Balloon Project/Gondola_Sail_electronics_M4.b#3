@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -1098,7 +1098,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.699" y="151.13" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="19.939" y="151.13" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="ALT_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="89.408" y="26.162" smashed="yes" rot="MR180"/>
+<element name="ALT_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="88.392" y="20.32" smashed="yes" rot="R270"/>
 <element name="BATT" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02/90" package3d_urn="urn:adsk.eagle:package:22437/2" value="" x="7.62" y="3.556" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.43" y="0.381" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="11.43" y="8.001" size="1.27" layer="27" rot="R180"/>
@@ -1112,14 +1112,16 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.43" y="6.985" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="11.43" y="14.605" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="26.67" y="12.192" smashed="yes">
-<attribute name="VALUE" x="24.638" y="9.398" size="1.27" layer="27" ratio="10"/>
+<element name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="-40.64" y="113.03" smashed="yes">
+<attribute name="NAME" x="-42.672" y="114.681" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-42.672" y="110.236" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="26.67" y="15.494" smashed="yes">
-<attribute name="VALUE" x="23.622" y="17.018" size="1.27" layer="27" ratio="10"/>
+<element name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" package="DO41-10" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4004" x="-53.34" y="113.03" smashed="yes">
+<attribute name="NAME" x="-55.372" y="114.681" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-55.372" y="110.236" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="IMU1" library="Adafruit_Arduino" package="BNO055" value="BNO055" x="114.046" y="22.606" smashed="yes" rot="R270"/>
-<element name="IMU1_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="107.188" y="23.876" smashed="yes" rot="MR270"/>
+<element name="IMU1_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="107.442" y="23.876" smashed="yes" rot="R90"/>
 <element name="IMU2_2_MCU" library="con-berg" library_urn="urn:adsk.eagle:library:130" package="PN87520" package3d_urn="urn:adsk.eagle:package:6146/1" value="" x="10.668" y="21.59" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="-76.962" y="-66.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="-76.962" y="-66.04" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1128,60 +1130,60 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="-76.962" y="-66.04" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="0.508" y="12.446" size="1.27" layer="27"/>
 </element>
-<element name="IMU2_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="17.272" y="21.59" smashed="yes" rot="MR180"/>
+<element name="IMU2_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="36.83" y="21.082" smashed="yes"/>
 <element name="PITOT_2_MCU" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X04/90" package3d_urn="urn:adsk.eagle:package:22404/2" value="" x="119.38" y="42.418" smashed="yes" rot="R270">
 <attribute name="NAME" x="115.57" y="48.133" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="114.935" y="35.433" size="1.27" layer="27"/>
 </element>
-<element name="R1" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="29.21" y="41.656" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Panasonic" x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="ERA-3AEB104V" x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="28.47356875" y="43.29418125" size="0.500971875" layer="26" rot="MR270"/>
-<attribute name="PACKAGE" value="0603 Panasonic" x="140.97" y="-68.834" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="30.465240625" y="43.29131875" size="0.500096875" layer="28" rot="MR270"/>
+<element name="R1" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="0.508" y="129.286" smashed="yes">
+<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERA-3AEB104V" x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-1.13018125" y="130.02243125" size="0.500971875" layer="25"/>
+<attribute name="PACKAGE" value="0603 Panasonic" x="110.998" y="17.526" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-1.12731875" y="128.030759375" size="0.500096875" layer="27"/>
 </element>
-<element name="R2" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="89.408" y="28.448" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="Panasonic" x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="ERA-3AEB104V" x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="87.76981875" y="27.71156875" size="0.500971875" layer="26" rot="MR180"/>
-<attribute name="PACKAGE" value="0603 Panasonic" x="105.918" y="154.178" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="87.77268125" y="29.703240625" size="0.500096875" layer="28" rot="MR180"/>
+<element name="R2" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="-16.51" y="125.73" smashed="yes">
+<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERA-3AEB104V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-18.14818125" y="126.46643125" size="0.500971875" layer="25"/>
+<attribute name="PACKAGE" value="0603 Panasonic" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-18.14531875" y="124.474759375" size="0.500096875" layer="27"/>
 </element>
-<element name="R3" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="109.474" y="23.876" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Panasonic" x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="ERA-3AEB104V" x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="108.73756875" y="25.51418125" size="0.500971875" layer="26" rot="MR270"/>
-<attribute name="PACKAGE" value="0603 Panasonic" x="235.204" y="1.016" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="110.729240625" y="25.51131875" size="0.500096875" layer="28" rot="MR270"/>
+<element name="R3" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="-22.86" y="125.73" smashed="yes">
+<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERA-3AEB104V" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-24.49818125" y="126.46643125" size="0.500971875" layer="25"/>
+<attribute name="PACKAGE" value="0603 Panasonic" x="0" y="0" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-24.49531875" y="124.474759375" size="0.500096875" layer="27"/>
 </element>
-<element name="R4" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="17.272" y="23.876" smashed="yes" rot="MR180">
-<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MF" value="Panasonic" x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MP" value="ERA-3AEB104V" x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="15.63381875" y="23.13956875" size="0.500971875" layer="26" rot="MR180"/>
-<attribute name="PACKAGE" value="0603 Panasonic" x="46.482" y="149.606" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="VALUE" x="15.63668125" y="25.131240625" size="0.500096875" layer="28" rot="MR180"/>
+<element name="R4" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="38.608" y="18.288" smashed="yes">
+<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Panasonic" x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="ERA-3AEB104V" x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36.96981875" y="19.02443125" size="0.500971875" layer="25"/>
+<attribute name="PACKAGE" value="0603 Panasonic" x="67.818" y="-107.442" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="36.97268125" y="17.032759375" size="0.500096875" layer="27"/>
 </element>
-<element name="R5" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="19.05" y="14.478" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MF" value="Panasonic" x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MP" value="ERA-3AEB104V" x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="18.31356875" y="16.11618125" size="0.500971875" layer="26" rot="MR270"/>
-<attribute name="PACKAGE" value="0603 Panasonic" x="144.78" y="-21.082" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="VALUE" x="20.305240625" y="16.11331875" size="0.500096875" layer="28" rot="MR270"/>
+<element name="R5" library="ERA-3AEB104V" package="RESC1608X55" value="ERA-3AEB104V" x="20.32" y="14.478" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value=" Res Thin Film 0603 100K Ohm 0.1% 0.1W_1/10W_ Ø¢±25ppm/Ø¢°C Molded SMD Automotive Punched T/R " x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="P100KDBCT-ND" x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-3AEB104V/P100KDBCT-ND/1466100?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Panasonic" x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="ERA-3AEB104V" x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="21.05643125" y="16.11618125" size="0.500971875" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="0603 Panasonic" x="-105.41" y="-21.082" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.064759375" y="16.11331875" size="0.500096875" layer="27" rot="R270"/>
 </element>
 <element name="R6" library="10K_SMD_resistors_RR0816p-103-D" package="RES_0816" value="RR0816P-103-D" x="19.05" y="4.826" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER_PART_NUMBER" value="RR0816P103D" x="-105.41" y="-47.244" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1192,19 +1194,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="24.003" y="67.564" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="27.162" y="65.786" size="0.02" layer="27"/>
 </element>
-<element name="SD_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="26.67" y="41.656" smashed="yes" rot="MR270"/>
-<element name="SD_POWER1" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="16.256" y="13.97" smashed="yes" rot="MR270"/>
-<element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="10.16" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.303" y="67.691" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="10.16" y="65.6399" size="0.02" layer="27" rot="R270"/>
+<element name="SD_POWER" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="26.67" y="41.656" smashed="yes" rot="R90"/>
+<element name="SD_POWER1" library="Adafruit_Arduino" package="3.3VTRANSISTOR" value="3.3V_NCH_FET" x="17.272" y="16.002" smashed="yes" rot="R90"/>
+<element name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-93.98" y="110.49" smashed="yes">
+<attribute name="NAME" x="-95.631" y="111.633" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-93.5799" y="110.49" size="0.02" layer="27"/>
 </element>
-<element name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="13.97" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.113" y="67.691" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="13.97" y="65.6399" size="0.02" layer="27" rot="R270"/>
+<element name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-99.06" y="110.49" smashed="yes">
+<attribute name="NAME" x="-100.711" y="111.633" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-98.6599" y="110.49" size="0.02" layer="27"/>
 </element>
-<element name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="17.78" y="66.04" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.923" y="67.691" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="17.78" y="65.6399" size="0.02" layer="27" rot="R270"/>
+<element name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" package="SJ" package3d_urn="urn:adsk.eagle:package:15471/1" value="" x="-104.14" y="110.49" smashed="yes">
+<attribute name="NAME" x="-105.791" y="111.633" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-103.7399" y="110.49" size="0.02" layer="27"/>
 </element>
 <element name="U$1" library="Adafruit_Arduino" package="ADAFRUIT_GPS" value="ADAFRUIT_GPS" x="107.696" y="61.722" smashed="yes" rot="R90"/>
 <element name="U$2" library="Adafruit_Arduino" package="ADAFRUIT_SD_RW" value="ADAFRUI_SD_RW" x="9.398" y="45.466" smashed="yes" rot="R90"/>
@@ -1214,7 +1216,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.287" y="9.271" size="1.778" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="U$6" library="Adafruit_Arduino" package="BSS138_LEVELSHIFT" value="BSS138_LVLSHIFT" x="107.442" y="61.468" smashed="yes"/>
-<element name="U$8" library="Adafruit_Arduino" package="ITSY_BITSY_M4" value="ITSY_BITSY_M4" x="64.008" y="45.212" smashed="yes" rot="R180"/>
+<element name="U$8" library="Adafruit_Arduino" package="ITSY_BITSY_M4" value="ITSY_BITSY_M4" x="50.8" y="20.574" smashed="yes" rot="R90"/>
 <element name="XBEE_2_MCU" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X09/90" package3d_urn="urn:adsk.eagle:package:22482/2" value="" x="7.62" y="42.672" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.43" y="30.607" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="11.43" y="56.007" size="1.27" layer="27" rot="R180"/>
@@ -1242,8 +1244,7 @@ design rules under a new name.</description>
 <wire x1="29.8704" y1="69.4944" x2="29.8704" y2="61.57134375" width="0.508" layer="1"/>
 <wire x1="29.8704" y1="61.57134375" x2="27.98905625" y2="59.69" width="0.508" layer="1"/>
 <wire x1="31.416" y1="71.04" x2="29.8704" y2="69.4944" width="0.508" layer="1"/>
-<wire x1="27.98905625" y1="59.69" x2="10.16" y2="59.69" width="0.508" layer="1"/>
-<wire x1="10.16" y1="59.69" x2="3.302" y2="59.69" width="0.508" layer="1"/>
+<wire x1="27.98905625" y1="59.69" x2="3.302" y2="59.69" width="0.508" layer="1"/>
 <wire x1="3.302" y1="59.69" x2="3.302" y2="52.832" width="0.508" layer="1"/>
 <wire x1="3.302" y1="52.832" x2="3.302" y2="30.734" width="0.508" layer="1"/>
 <wire x1="3.302" y1="30.734" x2="3.302" y2="19.784" width="0.508" layer="1"/>
@@ -1252,30 +1253,28 @@ design rules under a new name.</description>
 <wire x1="92.698" y1="71.04" x2="95.92" y2="67.818" width="0.508" layer="1"/>
 <wire x1="95.92" y1="67.818" x2="102.362" y2="67.818" width="0.508" layer="1"/>
 <wire x1="102.362" y1="67.818" x2="107.569" y2="62.611" width="0.508" layer="1"/>
-<wire x1="107.696" y1="62.484" x2="110.617" y2="59.563" width="0.508" layer="1"/>
 <wire x1="107.569" y1="62.611" x2="107.696" y2="62.484" width="0.508" layer="1"/>
 <wire x1="115.57" y1="43.688" x2="124.968" y2="43.688" width="0.508" layer="1"/>
-<wire x1="110.617" y1="50.419" x2="110.617" y2="59.563" width="0.508" layer="1"/>
+<wire x1="107.569" y1="53.467" x2="107.569" y2="62.611" width="0.508" layer="1"/>
 <wire x1="124.968" y1="46.736" x2="124.968" y2="43.688" width="0.508" layer="1"/>
 <wire x1="124.968" y1="46.736" x2="123.19" y2="48.514" width="0.508" layer="1"/>
 <wire x1="123.19" y1="48.514" x2="112.522" y2="48.514" width="0.508" layer="1"/>
-<wire x1="112.522" y1="48.514" x2="110.617" y2="50.419" width="0.508" layer="1"/>
+<wire x1="112.522" y1="48.514" x2="107.569" y2="53.467" width="0.508" layer="1"/>
 <wire x1="124.968" y1="43.688" x2="124.968" y2="18.796" width="0.508" layer="1"/>
 <wire x1="124.968" y1="18.796" x2="124.968" y2="2.8575" width="0.508" layer="1"/>
 <wire x1="105.6005" y1="2.8575" x2="98.044" y2="10.414" width="0.508" layer="1"/>
 <wire x1="98.044" y1="10.414" x2="98.044" y2="15.494" width="0.508" layer="1"/>
 <wire x1="124.968" y1="2.8575" x2="105.6005" y2="2.8575" width="0.508" layer="1"/>
 <wire x1="11.43" y1="52.832" x2="3.302" y2="52.832" width="0.508" layer="1"/>
-<wire x1="3.302" y1="30.734" x2="10.16" y2="30.734" width="0.508" layer="1"/>
+<wire x1="3.302" y1="30.734" x2="17.78" y2="30.734" width="0.508" layer="1"/>
+<wire x1="17.78" y1="30.734" x2="23.622" y2="36.576" width="0.508" layer="1"/>
 <wire x1="124.968" y1="18.796" x2="122.936" y2="18.796" width="0.508" layer="1"/>
 <wire x1="122.936" y1="18.796" x2="119.888" y2="18.796" width="0.508" layer="1"/>
 <wire x1="119.888" y1="18.796" x2="109.728" y2="28.956" width="0.508" layer="1"/>
 <wire x1="109.728" y1="28.956" x2="105.156" y2="28.956" width="0.508" layer="1"/>
-<wire x1="10.16" y1="65.278" x2="10.16" y2="59.69" width="0.508" layer="1"/>
-<via x="10.16" y="30.734" extent="1-16" drill="0.35"/>
 <wire x1="31.416" y1="71.04" x2="14.224" y2="151.13" width="0" layer="19" extent="1-1"/>
-<wire x1="10.16" y1="30.734" x2="23.622" y2="36.576" width="0" layer="19" extent="1-1"/>
 <wire x1="84.328" y1="24.0284" x2="98.044" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="-93.218" y1="110.49" x2="3.302" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="5V_REG" pad="V_OUT+"/>
@@ -1288,7 +1287,8 @@ design rules under a new name.</description>
 <wire x1="112.776" y1="73.66" x2="125.6538" y2="73.66" width="0.508" layer="1"/>
 <wire x1="125.6538" y1="73.66" x2="125.6538" y2="2.54" width="0.508" layer="1"/>
 <wire x1="125.6538" y1="2.54" x2="125.0569" y2="1.9431" width="0.508" layer="1"/>
-<wire x1="125.0569" y1="1.9431" x2="81.364103125" y2="1.9431" width="0.508" layer="1"/>
+<wire x1="125.0569" y1="1.9431" x2="45.3009" y2="1.9431" width="0.508" layer="1"/>
+<wire x1="45.3009" y1="1.9431" x2="43.18" y2="4.064" width="0.508" layer="1"/>
 <wire x1="85.586" y1="71.04" x2="84.49" y2="72.136" width="0.508" layer="1"/>
 <wire x1="84.49" y1="72.136" x2="30.226" y2="72.136" width="0.508" layer="1"/>
 <wire x1="112.522" y1="67.818" x2="121.158" y2="67.818" width="0.508" layer="1"/>
@@ -1296,7 +1296,6 @@ design rules under a new name.</description>
 <wire x1="112.522" y1="67.818" x2="112.522" y2="73.406" width="0.508" layer="1"/>
 <wire x1="112.522" y1="73.406" x2="112.776" y2="73.66" width="0.508" layer="1"/>
 <wire x1="30.226" y1="72.136" x2="16.764" y2="151.13" width="0" layer="19" extent="1-1"/>
-<wire x1="80.518" y1="37.592" x2="85.586" y2="71.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATT_GND">
 <contactref element="3V_REG" pad="V_IN-"/>
@@ -1316,18 +1315,20 @@ design rules under a new name.</description>
 <wire x1="2.032" y1="2.286" x2="11.43" y2="2.286" width="0.508" layer="1"/>
 <wire x1="1.4478" y1="72.2004" x2="1.4478" y2="2.8702" width="0.508" layer="1"/>
 <wire x1="24.892" y1="65.786" x2="24.892" y2="61.04" width="0.508" layer="1"/>
-<wire x1="15.24" y1="2.286" x2="11.43" y2="2.286" width="0.508" layer="1"/>
+<wire x1="15.24" y1="2.286" x2="14.986" y2="2.286" width="0.508" layer="1"/>
+<wire x1="14.986" y1="2.286" x2="11.43" y2="2.286" width="0.508" layer="1"/>
+<wire x1="20.32" y1="13.628" x2="18.122" y2="11.43" width="0.508" layer="1"/>
 <wire x1="18.122" y1="11.43" x2="17.76" y2="11.43" width="0.508" layer="1"/>
+<wire x1="18.322" y1="16.652" x2="21.448" y2="16.652" width="0.508" layer="1"/>
+<wire x1="21.448" y1="16.652" x2="21.844" y2="16.256" width="0.508" layer="1"/>
+<wire x1="21.844" y1="16.256" x2="21.844" y2="14.39" width="0.508" layer="1"/>
+<wire x1="21.844" y1="14.39" x2="21.082" y2="13.628" width="0.508" layer="1"/>
+<wire x1="21.082" y1="13.628" x2="20.32" y2="13.628" width="0.508" layer="1"/>
 <wire x1="17.76" y1="11.43" x2="17.76" y2="9.672" width="0.508" layer="1"/>
 <wire x1="17.76" y1="9.672" x2="20.574" y2="6.858" width="0.508" layer="1"/>
 <wire x1="20.574" y1="6.858" x2="20.574" y2="3.81" width="0.508" layer="1"/>
 <wire x1="20.574" y1="3.81" x2="19.05" y2="2.286" width="0.508" layer="1"/>
 <wire x1="19.05" y1="2.286" x2="15.24" y2="2.286" width="0.508" layer="1"/>
-<wire x1="17.306" y1="13.32" x2="18.034" y2="13.32" width="0.508" layer="16"/>
-<wire x1="18.034" y1="13.32" x2="18.742" y2="13.32" width="0.508" layer="16"/>
-<wire x1="18.742" y1="13.32" x2="19.05" y2="13.628" width="0.508" layer="16"/>
-<wire x1="18.034" y1="13.32" x2="18.034" y2="11.704" width="0.508" layer="16"/>
-<wire x1="18.034" y1="11.704" x2="17.76" y2="11.43" width="0.508" layer="16"/>
 </signal>
 <signal name="BATT_VIN">
 <contactref element="5V_REG" pad="V_IN+"/>
@@ -1363,48 +1364,32 @@ design rules under a new name.</description>
 <contactref element="XBEE_2_MCU" pad="8"/>
 <contactref element="REGULATOR_2_BATTERY_JUMPER" pad="2"/>
 <contactref element="ACC_PORT_5" pad="3"/>
-<wire x1="27.72" y1="41.006" x2="29.01" y2="41.006" width="0.508" layer="16"/>
-<wire x1="29.01" y1="41.006" x2="29.21" y2="40.806" width="0.508" layer="16"/>
-<wire x1="17.922" y1="22.64" x2="17.922" y2="23.676" width="0.508" layer="16"/>
-<wire x1="17.922" y1="23.676" x2="18.122" y2="23.876" width="0.508" layer="16"/>
-<wire x1="108.238" y1="23.226" x2="109.274" y2="23.226" width="0.508" layer="16"/>
-<wire x1="109.274" y1="23.226" x2="109.474" y2="23.026" width="0.508" layer="16"/>
-<wire x1="90.058" y1="27.212" x2="90.058" y2="28.248" width="0.508" layer="16"/>
-<wire x1="90.058" y1="28.248" x2="90.258" y2="28.448" width="0.508" layer="16"/>
-<wire x1="115.57" y1="41.148" x2="122.682" y2="66.802" width="0" layer="19" extent="1-1"/>
-<wire x1="109.274" y1="23.226" x2="115.57" y2="41.148" width="0" layer="19" extent="16-16"/>
-<wire x1="95.504" y1="15.494" x2="108.238" y2="23.226" width="0" layer="19" extent="16-16"/>
-<wire x1="90.058" y1="27.212" x2="95.504" y2="15.494" width="0" layer="19" extent="16-16"/>
-<wire x1="77.978" y1="37.592" x2="90.058" y2="28.248" width="0" layer="19" extent="16-16"/>
-<wire x1="85.586" y1="61.04" x2="77.978" y2="37.592" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.01" y1="125.73" x2="-15.66" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="39.458" y1="18.288" x2="-22.01" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="87.342" y1="19.67" x2="39.458" y2="18.288" width="0" layer="19" extent="1-1"/>
+<wire x1="108.492" y1="24.526" x2="87.342" y2="19.67" width="0" layer="19" extent="1-1"/>
+<wire x1="37.48" y1="20.032" x2="108.492" y2="24.526" width="0" layer="19" extent="1-1"/>
+<wire x1="27.72" y1="42.306" x2="37.48" y2="20.032" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="50.292" x2="-15.66" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="6.604" x2="11.43" y2="50.292" width="0" layer="19" extent="1-1"/>
+<wire x1="95.504" y1="15.494" x2="43.18" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="41.148" x2="95.504" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="11.684" y1="151.13" x2="115.57" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="1.358" y1="129.286" x2="11.684" y2="151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="27.432" y1="65.786" x2="1.358" y2="129.286" width="0" layer="19" extent="1-1"/>
+<wire x1="85.586" y1="61.04" x2="11.43" y2="50.292" width="0" layer="19" extent="1-1"/>
 <wire x1="92.698" y1="61.04" x2="85.586" y2="61.04" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="40.806" x2="77.978" y2="37.592" width="0" layer="19" extent="16-16"/>
-<wire x1="11.43" y1="50.292" x2="27.72" y2="41.006" width="0" layer="19" extent="16-16"/>
-<wire x1="18.122" y1="23.876" x2="27.72" y2="41.006" width="0" layer="19" extent="16-16"/>
-<wire x1="27.432" y1="65.786" x2="11.43" y2="50.292" width="0" layer="19" extent="1-1"/>
-<wire x1="11.684" y1="151.13" x2="27.432" y2="65.786" width="0" layer="19" extent="1-1"/>
+<wire x1="122.682" y1="66.802" x2="92.698" y2="61.04" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_TX_3V">
 <contactref element="U$8" pad="13"/>
 <contactref element="U$6" pad="A1"/>
-<wire x1="50.8" y1="49.784" x2="50.8" y2="38.354" width="0.508" layer="1"/>
-<wire x1="50.038" y1="37.592" x2="50.8" y2="38.354" width="0.508" layer="1"/>
-<via x="50.8" y="49.784" extent="1-16" drill="0.35"/>
-<wire x1="50.8" y1="49.784" x2="105.664" y2="49.784" width="0.508" layer="16"/>
-<via x="105.664" y="49.784" extent="1-16" drill="0.35"/>
-<wire x1="105.664" y1="49.784" x2="105.664" y2="61.976" width="0.508" layer="1"/>
-<wire x1="105.664" y1="61.976" x2="102.362" y2="65.278" width="0.508" layer="1"/>
+<wire x1="102.362" y1="65.278" x2="43.18" y2="34.544" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_RX_3V">
 <contactref element="U$8" pad="14"/>
 <contactref element="U$6" pad="A2"/>
-<wire x1="47.498" y1="37.592" x2="49.784" y2="39.878" width="0.508" layer="1"/>
-<wire x1="49.784" y1="39.878" x2="49.784" y2="50.8" width="0.508" layer="1"/>
-<via x="49.784" y="50.8" extent="1-16" drill="0.35"/>
-<wire x1="49.784" y1="50.8" x2="104.648" y2="50.8" width="0.508" layer="16"/>
-<via x="104.648" y="50.8" extent="1-16" drill="0.35"/>
-<wire x1="104.648" y1="50.8" x2="104.648" y2="60.452" width="0.508" layer="1"/>
-<wire x1="104.648" y1="60.452" x2="102.362" y2="62.738" width="0.508" layer="1"/>
+<wire x1="102.362" y1="62.738" x2="43.18" y2="37.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SDA">
 <contactref element="U$8" pad="12"/>
@@ -1414,27 +1399,12 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="MOSI"/>
 <contactref element="SJ2" pad="2"/>
 <contactref element="ACC_PORT_1" pad="1"/>
-<wire x1="105.156" y1="21.336" x2="99.7204" y2="21.336" width="0.508" layer="1"/>
-<wire x1="99.7204" y1="21.336" x2="97.028" y2="24.0284" width="0.508" layer="1"/>
-<wire x1="13.378" y1="22.59" x2="10.8884" y2="25.0796" width="0.508" layer="16"/>
-<wire x1="10.8884" y1="25.0796" x2="9.39205" y2="25.0796" width="0.508" layer="16"/>
-<wire x1="9.39205" y1="25.0796" x2="7.5876" y2="26.88405" width="0.508" layer="16"/>
-<wire x1="13.97" y1="59.09995" x2="13.97" y2="60.96" width="0.508" layer="16"/>
-<wire x1="7.5876" y1="52.71755" x2="13.97" y2="59.09995" width="0.508" layer="16"/>
-<wire x1="7.5876" y1="26.88405" x2="7.5876" y2="52.71755" width="0.508" layer="16"/>
-<via x="13.97" y="60.96" extent="1-16" drill="0.35"/>
-<wire x1="13.97" y1="60.96" x2="13.97" y2="65.278" width="0.508" layer="1"/>
-<wire x1="90.424" y1="15.494" x2="91.32294375" y2="15.494" width="0.508" layer="16"/>
-<wire x1="91.32294375" y1="15.494" x2="93.14374375" y2="13.6732" width="0.508" layer="16"/>
-<wire x1="93.14374375" y1="13.6732" x2="104.21425625" y2="13.6732" width="0.508" layer="16"/>
-<wire x1="106.3164" y1="15.77534375" x2="106.3164" y2="20.1756" width="0.508" layer="16"/>
-<wire x1="104.21425625" y1="13.6732" x2="106.3164" y2="15.77534375" width="0.508" layer="16"/>
-<wire x1="106.3164" y1="20.1756" x2="105.156" y2="21.336" width="0.508" layer="16"/>
-<wire x1="52.578" y1="37.592" x2="52.578" y2="29.464" width="0.508" layer="1"/>
-<wire x1="13.97" y1="65.278" x2="14.478" y2="117.348" width="0" layer="19" extent="1-1"/>
-<wire x1="52.578" y1="29.464" x2="13.378" y2="22.59" width="0" layer="19" extent="1-1"/>
-<wire x1="90.424" y1="15.494" x2="52.578" y2="29.464" width="0" layer="19" extent="1-1"/>
-<via x="52.578" y="29.464" extent="1-16" drill="0.35"/>
+<wire x1="97.028" y1="24.0284" x2="105.156" y2="21.336" width="0" layer="19" extent="1-1"/>
+<wire x1="90.424" y1="15.494" x2="97.028" y2="24.0284" width="0" layer="19" extent="1-1"/>
+<wire x1="13.378" y1="22.59" x2="90.424" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="-98.298" y1="110.49" x2="13.378" y2="22.59" width="0" layer="19" extent="1-1"/>
+<wire x1="14.478" y1="117.348" x2="90.424" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="32.004" x2="14.478" y2="117.348" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="U$8" pad="11"/>
@@ -1444,55 +1414,39 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="SCK"/>
 <contactref element="SJ3" pad="2"/>
 <contactref element="ACC_PORT_1" pad="2"/>
-<wire x1="9.6656" y1="25.74" x2="8.248" y2="27.1576" width="0.508" layer="16"/>
-<wire x1="13.378" y1="25.09" x2="12.728" y2="25.74" width="0.508" layer="16"/>
-<wire x1="12.728" y1="25.74" x2="9.6656" y2="25.74" width="0.508" layer="16"/>
-<wire x1="17.018" y1="61.214" x2="8.248" y2="52.444" width="0.508" layer="16"/>
-<wire x1="8.248" y1="27.1576" x2="8.248" y2="52.444" width="0.508" layer="16"/>
-<via x="17.018" y="61.214" extent="1-16" drill="0.35"/>
-<wire x1="17.78" y1="65.278" x2="17.78" y2="61.976" width="0.508" layer="1"/>
-<wire x1="17.78" y1="61.976" x2="17.018" y2="61.214" width="0.508" layer="1"/>
-<wire x1="92.964" y1="15.494" x2="92.964" y2="23.0124" width="0.508" layer="16"/>
-<wire x1="92.964" y1="23.0124" x2="91.948" y2="24.0284" width="0.508" layer="16"/>
-<wire x1="93.86294375" y1="15.494" x2="92.964" y2="15.494" width="0.508" layer="16"/>
-<wire x1="95.02334375" y1="14.3336" x2="93.86294375" y2="15.494" width="0.508" layer="16"/>
-<wire x1="100.6936" y1="14.3336" x2="95.02334375" y2="14.3336" width="0.508" layer="16"/>
-<wire x1="105.156" y1="18.796" x2="100.6936" y2="14.3336" width="0.508" layer="16"/>
-<wire x1="55.118" y1="37.592" x2="55.118" y2="30.988" width="0.508" layer="1"/>
-<wire x1="17.78" y1="65.278" x2="17.018" y2="117.348" width="0" layer="19" extent="1-1"/>
-<wire x1="55.118" y1="30.988" x2="13.378" y2="25.09" width="0" layer="19" extent="1-1"/>
-<wire x1="91.948" y1="24.0284" x2="55.118" y2="30.988" width="0" layer="19" extent="1-1"/>
-<via x="55.118" y="30.988" extent="1-16" drill="0.35"/>
+<wire x1="91.948" y1="24.0284" x2="105.156" y2="18.796" width="0" layer="19" extent="1-1"/>
+<wire x1="92.964" y1="15.494" x2="91.948" y2="24.0284" width="0" layer="19" extent="1-1"/>
+<wire x1="13.378" y1="25.09" x2="92.964" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="-103.378" y1="110.49" x2="13.378" y2="25.09" width="0" layer="19" extent="1-1"/>
+<wire x1="17.018" y1="117.348" x2="92.964" y2="15.494" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="29.464" x2="17.018" y2="117.348" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="U$8" pad="21"/>
 <contactref element="U$2" pad="MISO"/>
 <contactref element="XBEE_2_MCU" pad="3"/>
 <contactref element="ACC_PORT_1" pad="4"/>
-<wire x1="50.038" y1="52.832" x2="50.038" y2="54.356" width="0.508" layer="1"/>
-<wire x1="50.038" y1="54.356" x2="22.098" y2="117.348" width="0" layer="19" extent="1-1"/>
-<wire x1="23.622" y1="46.736" x2="50.038" y2="52.832" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="37.592" x2="23.622" y2="46.736" width="0" layer="19" extent="1-1"/>
+<wire x1="22.098" y1="117.348" x2="11.43" y2="37.592" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="34.544" x2="11.43" y2="37.592" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="46.736" x2="58.42" y2="34.544" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MOSI">
 <contactref element="U$8" pad="22"/>
 <contactref element="U$2" pad="MOSI"/>
 <contactref element="XBEE_2_MCU" pad="2"/>
 <contactref element="ACC_PORT_1" pad="3"/>
-<wire x1="52.578" y1="52.832" x2="52.578" y2="55.372" width="0.508" layer="1"/>
-<wire x1="23.622" y1="49.276" x2="19.558" y2="117.348" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="35.052" x2="23.622" y2="49.276" width="0" layer="19" extent="1-1"/>
-<wire x1="52.578" y1="52.832" x2="23.622" y2="49.276" width="0" layer="19" extent="1-1"/>
+<wire x1="19.558" y1="117.348" x2="11.43" y2="35.052" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="32.004" x2="11.43" y2="35.052" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="49.276" x2="58.42" y2="32.004" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_CLK">
 <contactref element="U$8" pad="23"/>
 <contactref element="U$2" pad="CLK"/>
 <contactref element="XBEE_2_MCU" pad="1"/>
 <contactref element="ACC_PORT_1" pad="5"/>
-<wire x1="55.118" y1="52.832" x2="55.118" y2="56.134" width="0.508" layer="1"/>
-<wire x1="55.118" y1="56.134" x2="24.638" y2="117.348" width="0" layer="19" extent="1-1"/>
-<wire x1="23.622" y1="44.196" x2="55.118" y2="52.832" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="32.512" x2="23.622" y2="44.196" width="0" layer="19" extent="1-1"/>
+<wire x1="24.638" y1="117.348" x2="11.43" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="29.464" x2="11.43" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="44.196" x2="58.42" y2="29.464" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$6" pad="GND_L"/>
@@ -1514,18 +1468,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPS_EN_3V">
 <contactref element="U$6" pad="A3"/>
-<contactref element="U$8" pad="15"/>
-<wire x1="47.498" y1="40.132" x2="48.768" y2="41.402" width="0.508" layer="1"/>
-<wire x1="48.768" y1="41.402" x2="48.768" y2="51.562" width="0.508" layer="1"/>
-<via x="48.768" y="51.562" extent="1-16" drill="0.35"/>
-<wire x1="48.768" y1="51.562" x2="49.43640625" y2="51.562" width="0.508" layer="16"/>
-<wire x1="49.43640625" y1="51.562" x2="49.45900625" y2="51.5846" width="0.508" layer="16"/>
-<wire x1="49.45900625" y1="51.5846" x2="50.10899375" y2="51.5846" width="0.508" layer="16"/>
-<wire x1="50.10899375" y1="51.5846" x2="50.13159375" y2="51.562" width="0.508" layer="16"/>
-<wire x1="50.13159375" y1="51.562" x2="103.632" y2="51.562" width="0.508" layer="16"/>
-<via x="103.632" y="51.562" extent="1-16" drill="0.35"/>
-<wire x1="103.632" y1="51.562" x2="103.632" y2="58.928" width="0.508" layer="1"/>
-<wire x1="103.632" y1="58.928" x2="102.362" y2="60.198" width="0.508" layer="1"/>
 </signal>
 <signal name="GPS_EN_5V">
 <contactref element="U$6" pad="B3"/>
@@ -1536,45 +1478,39 @@ design rules under a new name.</description>
 <signal name="SD_CS">
 <contactref element="U$2" pad="CS"/>
 <contactref element="U$8" pad="20"/>
-<wire x1="23.622" y1="51.816" x2="47.498" y2="52.832" width="0" layer="19" extent="1-1"/>
+<wire x1="23.622" y1="51.816" x2="58.42" y2="37.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD_PWR">
 <contactref element="SD_POWER" pad="G"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$8" pad="16"/>
-<wire x1="27.72" y1="42.306" x2="29.01" y2="42.306" width="0.508" layer="16"/>
-<wire x1="29.01" y1="42.306" x2="29.21" y2="42.506" width="0.508" layer="16"/>
-<wire x1="29.21" y1="42.506" x2="47.498" y2="42.672" width="0" layer="19" extent="16-16"/>
+<wire x1="48.26" y1="37.084" x2="27.72" y2="41.006" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.342" y1="129.286" x2="27.72" y2="41.006" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD_GND">
 <contactref element="U$2" pad="GND"/>
 <contactref element="SD_POWER" pad="D"/>
-<wire x1="25.62" y1="41.656" x2="23.622" y2="41.656" width="0.508" layer="16"/>
+<wire x1="25.62" y1="41.656" x2="23.622" y2="41.656" width="0.508" layer="1"/>
 </signal>
 <signal name="IMU1_PWR">
 <contactref element="R3" pad="1"/>
 <contactref element="IMU1_POWER" pad="G"/>
 <contactref element="U$8" pad="5"/>
-<wire x1="108.238" y1="24.526" x2="109.274" y2="24.526" width="0.508" layer="16"/>
-<wire x1="109.274" y1="24.526" x2="109.474" y2="24.726" width="0.508" layer="16"/>
-<wire x1="70.358" y1="37.592" x2="70.358" y2="34.798" width="0.508" layer="1"/>
-<wire x1="70.358" y1="34.798" x2="108.238" y2="24.526" width="0" layer="19" extent="1-16"/>
-<via x="70.358" y="34.798" extent="1-16" drill="0.35"/>
+<wire x1="108.492" y1="23.226" x2="-23.71" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="14.224" x2="108.492" y2="23.226" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ALT_PWR">
 <contactref element="R2" pad="1"/>
 <contactref element="ALT_POWER" pad="G"/>
 <contactref element="U$8" pad="6"/>
-<wire x1="88.758" y1="27.212" x2="88.758" y2="28.248" width="0.508" layer="16"/>
-<wire x1="88.758" y1="28.248" x2="88.558" y2="28.448" width="0.508" layer="16"/>
-<wire x1="67.818" y1="37.592" x2="67.818" y2="34.036" width="0.508" layer="1"/>
-<wire x1="67.818" y1="34.036" x2="88.558" y2="28.448" width="0" layer="19" extent="1-16"/>
-<via x="67.818" y="34.036" extent="1-16" drill="0.35"/>
+<wire x1="87.342" y1="20.97" x2="-17.36" y2="125.73" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="16.764" x2="87.342" y2="20.97" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ALT_GND">
 <contactref element="ALT_POWER" pad="D"/>
 <contactref element="U$4" pad="GND"/>
-<wire x1="89.408" y1="25.112" x2="89.408" y2="24.0284" width="0.508" layer="16"/>
+<wire x1="89.442" y1="20.32" x2="89.408" y2="20.354" width="0.508" layer="1"/>
+<wire x1="89.408" y1="20.354" x2="89.408" y2="24.0284" width="0.508" layer="1"/>
 </signal>
 <signal name="ADC_ACC_A3">
 <contactref element="U$3" pad="A3"/>
@@ -1593,56 +1529,50 @@ design rules under a new name.</description>
 <signal name="IMU1_GND">
 <contactref element="IMU1_POWER" pad="D"/>
 <contactref element="IMU1" pad="GND"/>
-<wire x1="106.138" y1="23.876" x2="105.156" y2="23.876" width="0.508" layer="16"/>
+<wire x1="106.392" y1="23.876" x2="105.156" y2="23.876" width="0.508" layer="1"/>
 </signal>
 <signal name="IMU2_PWR">
 <contactref element="IMU2_POWER" pad="G"/>
 <contactref element="R4" pad="1"/>
 <contactref element="U$8" pad="4"/>
-<wire x1="16.622" y1="22.64" x2="16.422" y2="22.84" width="0.508" layer="16"/>
-<wire x1="16.422" y1="22.84" x2="16.422" y2="23.876" width="0.508" layer="16"/>
-<wire x1="72.898" y1="37.592" x2="72.898" y2="35.814" width="0.508" layer="1"/>
-<wire x1="16.422" y1="23.876" x2="72.898" y2="35.814" width="0" layer="19" extent="1-16"/>
-<via x="72.898" y="35.814" extent="1-16" drill="0.35"/>
+<wire x1="36.18" y1="20.032" x2="36.18" y2="18.288" width="0.508" layer="1"/>
+<wire x1="36.18" y1="18.288" x2="36.18" y2="17.16" width="0.508" layer="1"/>
+<wire x1="36.18" y1="17.16" x2="37.084" y2="16.256" width="0.508" layer="1"/>
+<wire x1="38.608" y1="16.256" x2="43.18" y2="11.684" width="0.508" layer="1"/>
+<wire x1="38.608" y1="16.256" x2="37.084" y2="16.256" width="0.508" layer="1"/>
+<wire x1="37.758" y1="18.288" x2="36.18" y2="18.288" width="0.508" layer="1"/>
 </signal>
 <signal name="IMU2_GND">
 <contactref element="IMU2_POWER" pad="D"/>
 <contactref element="IMU2_2_MCU" pad="3"/>
-<wire x1="13.378" y1="20.59" x2="17.222" y2="20.59" width="0.508" layer="16"/>
-<wire x1="17.222" y1="20.59" x2="17.272" y2="20.54" width="0.508" layer="16"/>
+<wire x1="36.83" y1="22.132" x2="36.812" y2="22.114" width="0.508" layer="1"/>
+<wire x1="36.812" y1="22.114" x2="14.902" y2="22.114" width="0.508" layer="1"/>
+<wire x1="14.902" y1="22.114" x2="13.378" y2="20.59" width="0.508" layer="1"/>
 </signal>
 <signal name="XBEE_CUTDOWN">
 <contactref element="XBEE_2_MCU" pad="6"/>
 <contactref element="D2" pad="A"/>
-<wire x1="31.75" y1="15.494" x2="11.43" y2="45.212" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.26" y1="113.03" x2="11.43" y2="45.212" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XBEE_CS">
 <contactref element="U$8" pad="10"/>
 <contactref element="XBEE_2_MCU" pad="5"/>
-<wire x1="57.658" y1="37.592" x2="57.658" y2="31.496" width="0.508" layer="1"/>
-<wire x1="11.43" y1="42.672" x2="57.658" y2="37.592" width="0" layer="19" extent="1-1"/>
-<via x="57.658" y="31.496" extent="1-16" drill="0.35"/>
+<wire x1="43.18" y1="26.924" x2="11.43" y2="42.672" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XBEE_ATTN">
 <contactref element="U$8" pad="9"/>
 <contactref element="XBEE_2_MCU" pad="4"/>
-<wire x1="60.198" y1="37.592" x2="60.198" y2="32.258" width="0.508" layer="1"/>
-<wire x1="11.43" y1="40.132" x2="60.198" y2="37.592" width="0" layer="19" extent="1-1"/>
-<via x="60.198" y="32.258" extent="1-16" drill="0.35"/>
+<wire x1="43.18" y1="24.384" x2="11.43" y2="40.132" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="XBEE_CMD">
 <contactref element="U$8" pad="8"/>
 <contactref element="XBEE_2_MCU" pad="7"/>
-<wire x1="62.738" y1="37.592" x2="62.738" y2="32.766" width="0.508" layer="1"/>
-<wire x1="11.43" y1="47.752" x2="62.738" y2="37.592" width="0" layer="19" extent="1-1"/>
-<via x="62.738" y="32.766" extent="1-16" drill="0.35"/>
+<wire x1="43.18" y1="21.844" x2="11.43" y2="47.752" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_CUTDOWN">
 <contactref element="U$8" pad="7"/>
 <contactref element="D1" pad="A"/>
-<wire x1="65.278" y1="37.592" x2="65.278" y2="33.528" width="0.508" layer="1"/>
-<wire x1="31.75" y1="12.192" x2="65.278" y2="33.528" width="0" layer="19" extent="1-1"/>
-<via x="65.278" y="33.528" extent="1-16" drill="0.35"/>
+<wire x1="43.18" y1="19.304" x2="-35.56" y2="113.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LIMIT_SW_NEG">
 <contactref element="U$8" pad="27"/>
@@ -1653,6 +1583,9 @@ design rules under a new name.</description>
 <signal name="RUDDER_SERVO_PWM">
 <contactref element="U$8" pad="25"/>
 </signal>
+<signal name="GPS_EN">
+<contactref element="U$8" pad="15"/>
+</signal>
 <signal name="RUDDER_POT_VAR">
 <contactref element="U$3" pad="A1"/>
 </signal>
@@ -1662,18 +1595,17 @@ design rules under a new name.</description>
 <signal name="ACC_MCU_A0">
 <contactref element="U$8" pad="29"/>
 <contactref element="ACC_PORT_2" pad="5"/>
-<wire x1="70.358" y1="52.832" x2="45.72" y2="108.458" width="0" layer="19" extent="1-1"/>
+<wire x1="58.42" y1="14.224" x2="45.72" y2="108.458" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACC_MCU_A1">
 <contactref element="U$8" pad="28"/>
 <contactref element="ACC_PORT_2" pad="4"/>
-<wire x1="43.18" y1="108.458" x2="67.818" y2="52.832" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="108.458" x2="58.42" y2="16.764" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ACC_MCU_A5">
 <contactref element="U$8" pad="24"/>
 <contactref element="ACC_PORT_2" pad="3"/>
-<wire x1="57.658" y1="52.832" x2="57.658" y2="57.15" width="0.508" layer="1"/>
-<wire x1="57.658" y1="57.15" x2="40.64" y2="108.458" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="108.458" x2="58.42" y2="26.924" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_FIX_5V">
 <contactref element="U$1" pad="FIX"/>
@@ -1708,9 +1640,9 @@ design rules under a new name.</description>
 <contactref element="SJ3" pad="1"/>
 <contactref element="SJ2" pad="1"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="13.97" y1="66.802" x2="10.16" y2="66.802" width="0" layer="19" extent="1-1"/>
-<wire x1="17.78" y1="66.802" x2="13.97" y2="66.802" width="0" layer="19" extent="1-1"/>
-<wire x1="87.884" y1="15.494" x2="10.16" y2="66.802" width="0" layer="19" extent="1-1"/>
+<wire x1="-99.822" y1="110.49" x2="-94.742" y2="110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="-104.902" y1="110.49" x2="-99.822" y2="110.49" width="0" layer="19" extent="1-1"/>
+<wire x1="87.884" y1="15.494" x2="-94.742" y2="110.49" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPS_PPS_5V">
 <contactref element="U$1" pad="PPS"/>
@@ -1746,27 +1678,27 @@ design rules under a new name.</description>
 <signal name="MCU_RST">
 <contactref element="U$8" pad="33"/>
 <contactref element="ACC_PORT_4" pad="3"/>
-<wire x1="29.464" y1="152.146" x2="80.518" y2="52.832" width="0" layer="19" extent="1-1"/>
+<wire x1="29.464" y1="152.146" x2="58.42" y2="4.064" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_AREF">
 <contactref element="U$8" pad="31"/>
 <contactref element="ACC_PORT_4" pad="2"/>
-<wire x1="26.924" y1="152.146" x2="75.438" y2="52.832" width="0" layer="19" extent="1-1"/>
+<wire x1="26.924" y1="152.146" x2="58.42" y2="9.144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_EN">
 <contactref element="U$8" pad="19"/>
 <contactref element="ACC_PORT_4" pad="1"/>
-<wire x1="24.384" y1="152.146" x2="47.498" y2="50.292" width="0" layer="19" extent="1-1"/>
+<wire x1="24.384" y1="152.146" x2="55.88" y2="37.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_SWDIO">
 <contactref element="U$8" pad="18"/>
 <contactref element="ACC_PORT_5" pad="2"/>
-<wire x1="9.144" y1="151.13" x2="47.498" y2="47.752" width="0" layer="19" extent="1-1"/>
+<wire x1="9.144" y1="151.13" x2="53.34" y2="37.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_SWCLK/RST">
 <contactref element="U$8" pad="17"/>
 <contactref element="ACC_PORT_5" pad="1"/>
-<wire x1="6.604" y1="151.13" x2="47.498" y2="45.212" width="0" layer="19" extent="1-1"/>
+<wire x1="6.604" y1="151.13" x2="50.8" y2="37.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CUTDOWN_RETURN">
 <contactref element="CUTDOWN" pad="1"/>
@@ -1780,24 +1712,22 @@ design rules under a new name.</description>
 <contactref element="SD_POWER1" pad="G"/>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="C"/>
-<wire x1="17.306" y1="14.62" x2="18.014" y2="15.328" width="0.508" layer="16"/>
-<wire x1="18.014" y1="15.328" x2="19.05" y2="15.328" width="0.508" layer="16"/>
-<wire x1="21.59" y1="12.788" x2="21.59" y2="12.192" width="0.508" layer="16"/>
-<wire x1="21.59" y1="12.192" x2="21.59" y2="15.494" width="0.508" layer="1"/>
-<wire x1="21.59" y1="15.494" x2="21.424" y2="15.328" width="0.508" layer="16"/>
-<wire x1="21.424" y1="15.328" x2="19.05" y2="15.328" width="0.508" layer="16"/>
+<wire x1="20.32" y1="15.328" x2="18.346" y2="15.328" width="0.508" layer="1"/>
+<wire x1="18.346" y1="15.328" x2="18.322" y2="15.352" width="0.508" layer="1"/>
+<wire x1="-58.42" y1="113.03" x2="-45.72" y2="113.03" width="0" layer="19" extent="1-1"/>
+<wire x1="18.322" y1="15.352" x2="-45.72" y2="113.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="SD_POWER1" pad="D"/>
 <contactref element="R6" pad="1"/>
 <contactref element="U$5" pad="G"/>
 <contactref element="C1" pad="1"/>
+<wire x1="15.26" y1="11.43" x2="15.26" y2="15.04" width="0.508" layer="1"/>
+<wire x1="15.26" y1="15.04" x2="16.222" y2="16.002" width="0.508" layer="1"/>
 <wire x1="15.26" y1="11.43" x2="15.26" y2="7.386" width="0.508" layer="1"/>
 <wire x1="15.26" y1="7.386" x2="15.24" y2="7.366" width="0.508" layer="1"/>
 <wire x1="19.05" y1="5.6526" x2="16.9934" y2="5.6526" width="0.508" layer="1"/>
 <wire x1="16.9934" y1="5.6526" x2="15.26" y2="7.386" width="0.508" layer="1"/>
-<wire x1="15.206" y1="13.97" x2="15.206" y2="11.484" width="0.508" layer="16"/>
-<wire x1="15.206" y1="11.484" x2="15.26" y2="11.43" width="0.508" layer="16"/>
 </signal>
 <signal name="IMU_INT">
 <contactref element="ACC_PORT_3" pad="1"/>

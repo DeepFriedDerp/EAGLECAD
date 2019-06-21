@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -252,39 +266,39 @@ SHIFT</text>
 <wire x1="17.78" y1="8.89" x2="17.78" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="17.78" y1="-8.89" x2="-17.78" y2="-8.89" width="0.127" layer="21"/>
 <wire x1="-17.78" y1="-8.89" x2="-17.78" y2="8.89" width="0.127" layer="21"/>
-<pad name="1" x="-16.51" y="7.62" drill="0.6"/>
-<pad name="2" x="-13.97" y="7.62" drill="0.6"/>
-<pad name="3" x="-11.43" y="7.62" drill="0.6"/>
-<pad name="4" x="-8.89" y="7.62" drill="0.6"/>
-<pad name="5" x="-6.35" y="7.62" drill="0.6"/>
-<pad name="6" x="-3.81" y="7.62" drill="0.6"/>
-<pad name="7" x="-1.27" y="7.62" drill="0.6"/>
-<pad name="8" x="1.27" y="7.62" drill="0.6"/>
-<pad name="9" x="3.81" y="7.62" drill="0.6"/>
-<pad name="10" x="6.35" y="7.62" drill="0.6"/>
-<pad name="11" x="8.89" y="7.62" drill="0.6"/>
-<pad name="12" x="11.43" y="7.62" drill="0.6"/>
-<pad name="13" x="13.97" y="7.62" drill="0.6"/>
-<pad name="14" x="16.51" y="7.62" drill="0.6"/>
-<pad name="15" x="16.51" y="5.08" drill="0.6"/>
-<pad name="16" x="16.51" y="2.54" drill="0.6"/>
-<pad name="17" x="16.51" y="0" drill="0.6"/>
-<pad name="18" x="16.51" y="-2.54" drill="0.6"/>
-<pad name="19" x="16.51" y="-5.08" drill="0.6"/>
-<pad name="20" x="16.51" y="-7.62" drill="0.6"/>
-<pad name="21" x="13.97" y="-7.62" drill="0.6"/>
-<pad name="22" x="11.43" y="-7.62" drill="0.6"/>
-<pad name="23" x="8.89" y="-7.62" drill="0.6"/>
-<pad name="24" x="6.35" y="-7.62" drill="0.6"/>
-<pad name="25" x="3.81" y="-7.62" drill="0.6"/>
-<pad name="26" x="1.27" y="-7.62" drill="0.6"/>
-<pad name="27" x="-1.27" y="-7.62" drill="0.6"/>
-<pad name="28" x="-3.81" y="-7.62" drill="0.6"/>
-<pad name="29" x="-6.35" y="-7.62" drill="0.6"/>
-<pad name="30" x="-8.89" y="-7.62" drill="0.6"/>
-<pad name="31" x="-11.43" y="-7.62" drill="0.6"/>
-<pad name="32" x="-13.97" y="-7.62" drill="0.6"/>
-<pad name="33" x="-16.51" y="-7.62" drill="0.6"/>
+<pad name="1" x="-16.51" y="7.62" drill="1"/>
+<pad name="2" x="-13.97" y="7.62" drill="1"/>
+<pad name="3" x="-11.43" y="7.62" drill="1"/>
+<pad name="4" x="-8.89" y="7.62" drill="1"/>
+<pad name="5" x="-6.35" y="7.62" drill="1"/>
+<pad name="6" x="-3.81" y="7.62" drill="1"/>
+<pad name="7" x="-1.27" y="7.62" drill="1"/>
+<pad name="8" x="1.27" y="7.62" drill="1"/>
+<pad name="9" x="3.81" y="7.62" drill="1"/>
+<pad name="10" x="6.35" y="7.62" drill="1"/>
+<pad name="11" x="8.89" y="7.62" drill="1"/>
+<pad name="12" x="11.43" y="7.62" drill="1"/>
+<pad name="13" x="13.97" y="7.62" drill="1"/>
+<pad name="14" x="16.51" y="7.62" drill="1"/>
+<pad name="15" x="16.51" y="5.08" drill="1"/>
+<pad name="16" x="16.51" y="2.54" drill="1"/>
+<pad name="17" x="16.51" y="0" drill="1"/>
+<pad name="18" x="16.51" y="-2.54" drill="1"/>
+<pad name="19" x="16.51" y="-5.08" drill="1"/>
+<pad name="20" x="16.51" y="-7.62" drill="1"/>
+<pad name="21" x="13.97" y="-7.62" drill="1"/>
+<pad name="22" x="11.43" y="-7.62" drill="1"/>
+<pad name="23" x="8.89" y="-7.62" drill="1"/>
+<pad name="24" x="6.35" y="-7.62" drill="1"/>
+<pad name="25" x="3.81" y="-7.62" drill="1"/>
+<pad name="26" x="1.27" y="-7.62" drill="1"/>
+<pad name="27" x="-1.27" y="-7.62" drill="1"/>
+<pad name="28" x="-3.81" y="-7.62" drill="1"/>
+<pad name="29" x="-6.35" y="-7.62" drill="1"/>
+<pad name="30" x="-8.89" y="-7.62" drill="1"/>
+<pad name="31" x="-11.43" y="-7.62" drill="1"/>
+<pad name="32" x="-13.97" y="-7.62" drill="1"/>
+<pad name="33" x="-16.51" y="-7.62" drill="1"/>
 <text x="-6.35" y="0" size="1.27" layer="21">ITSY BITSY M4</text>
 </package>
 <package name="5V/3V_REGULATOR">
@@ -1330,6 +1344,66 @@ Based on  the following source:
 <rectangle x1="1.746" y1="-0.254" x2="2.254" y2="0.254" layer="51"/>
 <rectangle x1="3.746" y1="-0.254" x2="4.254" y2="0.254" layer="51"/>
 </package>
+<package name="1X03" urn="urn:adsk.eagle:footprint:22340/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+</package>
+<package name="1X03/90" urn="urn:adsk.eagle:footprint:22341/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="6.985" x2="-2.54" y2="1.27" width="0.762" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="6.985" x2="0" y2="1.27" width="0.762" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="6.985" x2="2.54" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.921" y1="0.635" x2="-2.159" y2="1.143" layer="21"/>
+<rectangle x1="-0.381" y1="0.635" x2="0.381" y2="1.143" layer="21"/>
+<rectangle x1="2.159" y1="0.635" x2="2.921" y2="1.143" layer="21"/>
+<rectangle x1="-2.921" y1="-2.921" x2="-2.159" y2="-1.905" layer="21"/>
+<rectangle x1="-0.381" y1="-2.921" x2="0.381" y2="-1.905" layer="21"/>
+<rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X04" urn="urn:adsk.eagle:package:22407/2" type="model" library_version="3">
@@ -1386,6 +1460,18 @@ Based on  the following source:
 <packageinstance name="1_05X2MM"/>
 </packageinstances>
 </package3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:22458/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+<package3d name="1X03/90" urn="urn:adsk.eagle:package:22459/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X03/90"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="PINHD4" urn="urn:adsk.eagle:symbol:22257/1" library_version="3">
@@ -1439,6 +1525,17 @@ Based on  the following source:
 <pin name="3" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="PINHD3" urn="urn:adsk.eagle:symbol:22339/1" library_version="3">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1602,6 +1699,40 @@ Based on  the following source:
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:22466/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHD-1X3" urn="urn:adsk.eagle:component:22524/3" prefix="JP" uservalue="yes" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="A" symbol="PINHD3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X03">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22458/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="/90" package="1X03/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22459/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -2417,9 +2548,6 @@ general purpose rectifier, 1 A</description>
 <part name="PITOT_2_MCU" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="/90" package3d_urn="urn:adsk.eagle:package:22404/2"/>
 <part name="BATT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
 <part name="XBEE_2_MCU" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X9" device="/90" package3d_urn="urn:adsk.eagle:package:22482/2"/>
-<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="CUTDOWN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
 <part name="SD_POWER1" library="Adafruit_Arduino" deviceset="3.3V_NCH_FET" device=""/>
 <part name="R5" library="ERA-3AEB104V" deviceset="ERA-3AEB104V" device=""/>
@@ -2429,11 +2557,8 @@ general purpose rectifier, 1 A</description>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1"/>
 <part name="REGULATOR_2_BATTERY_JUMPER" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
-<part name="ACC_PORT_1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
-<part name="ACC_PORT_2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
-<part name="ACC_PORT_3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
-<part name="ACC_PORT_4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
-<part name="ACC_PORT_5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
+<part name="RUDDER_FEEDBACK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
+<part name="SERVO_CONTROL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="/90" package3d_urn="urn:adsk.eagle:package:22459/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2450,7 +2575,7 @@ general purpose rectifier, 1 A</description>
 <instance part="U$3" gate="G$1" x="214.63" y="44.45" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="109.22" y="36.83" smashed="yes"/>
 <instance part="IMU1" gate="G$1" x="92.71" y="143.51" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="158.75" y="57.15" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="160.02" y="62.23" smashed="yes"/>
 <instance part="U$8" gate="A" x="156.21" y="129.54" smashed="yes"/>
 <instance part="3V_REG" gate="G$1" x="160.02" y="30.48" smashed="yes"/>
 <instance part="5V_REG" gate="G$1" x="160.02" y="12.7" smashed="yes"/>
@@ -2487,29 +2612,17 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="26.67" y="189.865" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="205.74" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BATT" gate="G$1" x="12.7" y="144.78" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="139.065" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="149.86" size="1.778" layer="96" rot="R180"/>
+<instance part="BATT" gate="G$1" x="12.7" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="19.05" y="106.045" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="XBEE_2_MCU" gate="A" x="12.7" y="170.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.67" y="156.845" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="185.42" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SJ1" gate="1" x="264.16" y="22.86" smashed="yes">
-<attribute name="NAME" x="261.62" y="25.4" size="1.778" layer="95"/>
-<attribute name="VALUE" x="261.62" y="19.05" size="1.778" layer="96"/>
-</instance>
-<instance part="SJ2" gate="1" x="264.16" y="15.24" smashed="yes">
-<attribute name="NAME" x="261.62" y="17.78" size="1.778" layer="95"/>
-<attribute name="VALUE" x="261.62" y="11.43" size="1.778" layer="96"/>
-</instance>
-<instance part="SJ3" gate="1" x="264.16" y="7.62" smashed="yes">
-<attribute name="NAME" x="261.62" y="10.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="261.62" y="3.81" size="1.778" layer="96"/>
-</instance>
-<instance part="CUTDOWN" gate="G$1" x="12.7" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="121.285" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="132.08" size="1.778" layer="96" rot="R180"/>
+<instance part="CUTDOWN" gate="G$1" x="12.7" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.13" y="93.345" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="104.14" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SD_POWER1" gate="G$1" x="78.74" y="86.36" smashed="yes" rot="R180"/>
 <instance part="R5" gate="G$1" x="88.9" y="93.98" smashed="yes" rot="R90">
@@ -2535,25 +2648,13 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="261.62" y="43.18" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.27" y="45.72" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="ACC_PORT_1" gate="A" x="12.7" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="95.885" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="114.3" size="1.778" layer="96" rot="R180"/>
+<instance part="RUDDER_FEEDBACK" gate="A" x="12.7" y="144.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="136.525" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="154.94" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="ACC_PORT_2" gate="A" x="12.7" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="73.025" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="91.44" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="ACC_PORT_3" gate="A" x="12.7" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="50.165" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="68.58" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="ACC_PORT_4" gate="A" x="12.7" y="35.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="27.305" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="45.72" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="ACC_PORT_5" gate="A" x="12.7" y="12.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.05" y="4.445" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="19.05" y="22.86" size="1.778" layer="96" rot="R180"/>
+<instance part="SERVO_CONTROL" gate="A" x="12.7" y="125.73" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.75" y="120.015" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="19.05" y="133.35" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -2567,8 +2668,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="LV"/>
-<wire x1="146.05" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<label x="139.7" y="63.5" size="1.778" layer="95"/>
+<wire x1="147.32" y1="68.58" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
+<label x="140.97" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="5V"/>
@@ -2616,14 +2717,9 @@ general purpose rectifier, 1 A</description>
 <label x="25.4" y="180.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="269.24" y1="22.86" x2="276.86" y2="22.86" width="0.1524" layer="91"/>
-<label x="271.78" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_5" gate="A" pin="4"/>
-<wire x1="15.24" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="15.24" size="1.778" layer="95"/>
+<pinref part="RUDDER_FEEDBACK" gate="A" pin="5"/>
+<wire x1="15.24" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
+<label x="25.4" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2639,8 +2735,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="HV"/>
-<wire x1="171.45" y1="63.5" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
-<label x="175.26" y="63.5" size="1.778" layer="95"/>
+<wire x1="172.72" y1="68.58" x2="179.07" y2="68.58" width="0.1524" layer="91"/>
+<label x="176.53" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
@@ -2649,9 +2745,9 @@ general purpose rectifier, 1 A</description>
 <label x="226.06" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ACC_PORT_5" gate="A" pin="5"/>
-<wire x1="15.24" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<label x="25.4" y="17.78" size="1.778" layer="95"/>
+<pinref part="SERVO_CONTROL" gate="A" pin="3"/>
+<wire x1="15.24" y1="128.27" x2="27.94" y2="128.27" width="0.1524" layer="91"/>
+<label x="25.4" y="128.27" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_GND" class="0">
@@ -2668,8 +2764,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="BATT" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<label x="22.86" y="142.24" size="1.778" layer="95"/>
+<wire x1="15.24" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="22.86" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -2707,13 +2803,13 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="BATT" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
-<label x="22.86" y="144.78" size="1.778" layer="95"/>
+<wire x1="15.24" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<label x="22.86" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CUTDOWN" gate="G$1" pin="2"/>
-<wire x1="15.24" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
-<label x="22.86" y="127" size="1.778" layer="95"/>
+<wire x1="15.24" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
+<label x="22.86" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R6" gate="A" pin="2"/>
@@ -2792,9 +2888,14 @@ general purpose rectifier, 1 A</description>
 <label x="261.62" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="ACC_PORT_5" gate="A" pin="3"/>
-<wire x1="15.24" y1="12.7" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<label x="25.4" y="12.7" size="1.778" layer="95"/>
+<pinref part="SERVO_CONTROL" gate="A" pin="1"/>
+<wire x1="15.24" y1="123.19" x2="27.94" y2="123.19" width="0.1524" layer="91"/>
+<label x="25.4" y="123.19" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RUDDER_FEEDBACK" gate="A" pin="4"/>
+<wire x1="15.24" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
+<label x="25.4" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_TX_3V" class="0">
@@ -2805,8 +2906,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A1"/>
-<wire x1="146.05" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
-<label x="134.62" y="60.96" size="1.778" layer="95"/>
+<wire x1="147.32" y1="66.04" x2="140.97" y2="66.04" width="0.1524" layer="91"/>
+<label x="135.89" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_RX_3V" class="0">
@@ -2817,8 +2918,8 @@ general purpose rectifier, 1 A</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A2"/>
-<wire x1="146.05" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
-<label x="134.62" y="58.42" size="1.778" layer="95"/>
+<wire x1="147.32" y1="63.5" x2="140.97" y2="63.5" width="0.1524" layer="91"/>
+<label x="135.89" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -2850,16 +2951,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="114.3" y1="7.62" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
 <label x="88.9" y="7.62" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="269.24" y1="15.24" x2="276.86" y2="15.24" width="0.1524" layer="91"/>
-<label x="271.78" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_1" gate="A" pin="1"/>
-<wire x1="15.24" y1="99.06" x2="27.94" y2="99.06" width="0.1524" layer="91"/>
-<label x="25.4" y="99.06" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -2890,16 +2981,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="109.22" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 <label x="88.9" y="12.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="269.24" y1="7.62" x2="276.86" y2="7.62" width="0.1524" layer="91"/>
-<label x="271.78" y="7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_1" gate="A" pin="2"/>
-<wire x1="15.24" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
-<label x="25.4" y="101.6" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
@@ -2917,11 +2998,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="XBEE_2_MCU" gate="A" pin="3"/>
 <wire x1="15.24" y1="165.1" x2="27.94" y2="165.1" width="0.1524" layer="91"/>
 <label x="25.4" y="165.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_1" gate="A" pin="4"/>
-<wire x1="15.24" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="25.4" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -2941,11 +3017,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="15.24" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="25.4" y="162.56" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_1" gate="A" pin="3"/>
-<wire x1="15.24" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="25.4" y="104.14" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SPI_CLK" class="0">
 <segment>
@@ -2964,29 +3035,24 @@ general purpose rectifier, 1 A</description>
 <wire x1="15.24" y1="160.02" x2="27.94" y2="160.02" width="0.1524" layer="91"/>
 <label x="25.4" y="160.02" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_1" gate="A" pin="5"/>
-<wire x1="15.24" y1="109.22" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="25.4" y="109.22" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="GND_L"/>
-<wire x1="146.05" y1="50.8" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="55.88" x2="140.97" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="GND_H"/>
-<wire x1="171.45" y1="50.8" x2="177.8" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="179.07" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPS_RX_5V" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="B1"/>
-<wire x1="171.45" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
-<label x="172.72" y="60.96" size="1.778" layer="95"/>
+<wire x1="172.72" y1="66.04" x2="179.07" y2="66.04" width="0.1524" layer="91"/>
+<label x="173.99" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="RX"/>
@@ -2998,8 +3064,8 @@ general purpose rectifier, 1 A</description>
 <net name="GPS_TX_5V" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="B2"/>
-<wire x1="171.45" y1="58.42" x2="177.8" y2="58.42" width="0.1524" layer="91"/>
-<label x="172.72" y="58.42" size="1.778" layer="95"/>
+<wire x1="172.72" y1="63.5" x2="179.07" y2="63.5" width="0.1524" layer="91"/>
+<label x="173.99" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="TX"/>
@@ -3011,15 +3077,21 @@ general purpose rectifier, 1 A</description>
 <net name="GPS_EN_3V" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="A3"/>
-<wire x1="146.05" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
-<label x="134.62" y="55.88" size="1.778" layer="95"/>
+<wire x1="147.32" y1="60.96" x2="140.97" y2="60.96" width="0.1524" layer="91"/>
+<label x="135.89" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="A" pin="4"/>
+<wire x1="166.37" y1="86.36" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="177.8" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_EN_5V" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="B3"/>
-<wire x1="171.45" y1="55.88" x2="177.8" y2="55.88" width="0.1524" layer="91"/>
-<label x="172.72" y="55.88" size="1.778" layer="95"/>
+<wire x1="172.72" y1="60.96" x2="179.07" y2="60.96" width="0.1524" layer="91"/>
+<label x="173.99" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="EN"/>
@@ -3264,6 +3336,11 @@ general purpose rectifier, 1 A</description>
 <wire x1="135.89" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <label x="111.76" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RUDDER_FEEDBACK" gate="A" pin="1"/>
+<wire x1="15.24" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
+<label x="25.4" y="139.7" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LIMIT_SW_POS" class="0">
 <segment>
@@ -3271,20 +3348,22 @@ general purpose rectifier, 1 A</description>
 <wire x1="135.89" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
 <label x="111.76" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="RUDDER_FEEDBACK" gate="A" pin="2"/>
+<wire x1="15.24" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
+<label x="25.4" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="RUDDER_SERVO_PWM" class="0">
+<net name="RUDDER_SERVO_PWM_3V" class="0">
 <segment>
 <pinref part="U$8" gate="A" pin="A4"/>
 <wire x1="135.89" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
-<label x="106.68" y="121.92" size="1.778" layer="95"/>
+<label x="102.87" y="121.92" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="GPS_EN" class="0">
 <segment>
-<pinref part="U$8" gate="A" pin="4"/>
-<wire x1="166.37" y1="86.36" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="166.37" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
-<label x="177.8" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$6" gate="G$1" pin="A4"/>
+<wire x1="147.32" y1="58.42" x2="135.89" y2="58.42" width="0.1524" layer="91"/>
+<label x="113.03" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RUDDER_POT_VAR" class="0">
@@ -3293,6 +3372,11 @@ general purpose rectifier, 1 A</description>
 <wire x1="220.98" y1="30.734" x2="220.98" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="22.86" x2="228.6" y2="22.86" width="0.1524" layer="91"/>
 <label x="228.6" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="RUDDER_FEEDBACK" gate="A" pin="3"/>
+<wire x1="15.24" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
+<label x="25.4" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PITOT_OCS" class="0">
@@ -3308,11 +3392,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="135.89" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <label x="116.84" y="142.24" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_2" gate="A" pin="5"/>
-<wire x1="15.24" y1="86.36" x2="27.94" y2="86.36" width="0.1524" layer="91"/>
-<label x="25.4" y="86.36" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ACC_MCU_A1" class="0">
 <segment>
@@ -3320,22 +3399,12 @@ general purpose rectifier, 1 A</description>
 <wire x1="135.89" y1="137.16" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="116.84" y="137.16" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_2" gate="A" pin="4"/>
-<wire x1="15.24" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<label x="25.4" y="83.82" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ACC_MCU_A5" class="0">
 <segment>
 <pinref part="U$8" gate="A" pin="A5"/>
 <wire x1="135.89" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="116.84" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_2" gate="A" pin="3"/>
-<wire x1="15.24" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
-<label x="25.4" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_FIX_5V" class="0">
@@ -3345,28 +3414,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="213.36" y1="63.5" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
 <label x="226.06" y="63.5" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="B4"/>
-<wire x1="171.45" y1="53.34" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<label x="172.72" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_2" gate="A" pin="1"/>
-<wire x1="15.24" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<label x="25.4" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPS_FIX_3V" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="A4"/>
-<wire x1="146.05" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<label x="129.54" y="53.34" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_2" gate="A" pin="2"/>
-<wire x1="15.24" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
-<label x="25.4" y="78.74" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="SD_CD" class="0">
 <segment>
@@ -3374,11 +3421,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="222.25" y1="138.938" x2="222.25" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="222.25" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <label x="226.06" y="137.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_3" gate="A" pin="5"/>
-<wire x1="15.24" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
-<label x="25.4" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADC_ALRT" class="0">
@@ -3388,11 +3430,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="215.9" y1="17.78" x2="228.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="228.6" y="17.78" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_3" gate="A" pin="4"/>
-<wire x1="15.24" y1="60.96" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-<label x="25.4" y="60.96" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="ADC_ADDR" class="0">
 <segment>
@@ -3400,18 +3437,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="213.36" y1="30.734" x2="213.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="15.24" x2="228.6" y2="15.24" width="0.1524" layer="91"/>
 <label x="228.6" y="15.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="SJ3" gate="1" pin="1"/>
-<pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="259.08" y1="7.62" x2="259.08" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="259.08" y1="22.86" x2="259.08" y2="15.24" width="0.1524" layer="91"/>
-<junction x="259.08" y="15.24"/>
-<wire x1="259.08" y1="22.86" x2="259.08" y2="30.48" width="0.1524" layer="91"/>
-<junction x="259.08" y="22.86"/>
-<wire x1="259.08" y1="30.48" x2="276.86" y2="30.48" width="0.1524" layer="91"/>
-<label x="271.78" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPS_PPS_5V" class="0">
@@ -3427,11 +3452,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="111.76" y1="22.098" x2="111.76" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="10.16" x2="99.06" y2="10.16" width="0.1524" layer="91"/>
 <label x="88.9" y="10.16" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_3" gate="A" pin="3"/>
-<wire x1="15.24" y1="58.42" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
-<label x="25.4" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU1_INT" class="0">
@@ -3449,11 +3469,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="91.44" y1="165.1" x2="78.74" y2="165.1" width="0.1524" layer="91"/>
 <label x="68.58" y="165.1" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_4" gate="A" pin="4"/>
-<wire x1="15.24" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
-<label x="25.4" y="38.1" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="IMU1_PS0" class="0">
 <segment>
@@ -3461,11 +3476,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="88.9" y1="158.75" x2="88.9" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
 <label x="68.58" y="162.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_4" gate="A" pin="5"/>
-<wire x1="15.24" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
-<label x="25.4" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU1_RST" class="0">
@@ -3475,11 +3485,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="99.06" y1="114.3" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 <label x="68.58" y="114.3" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_3" gate="A" pin="2"/>
-<wire x1="15.24" y1="55.88" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
-<label x="25.4" y="55.88" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MCU_RST" class="0">
 <segment>
@@ -3487,22 +3492,12 @@ general purpose rectifier, 1 A</description>
 <wire x1="135.89" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
 <label x="121.92" y="162.56" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_4" gate="A" pin="3"/>
-<wire x1="15.24" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
-<label x="25.4" y="35.56" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MCU_AREF" class="0">
 <segment>
 <pinref part="U$8" gate="A" pin="AREF"/>
 <wire x1="135.89" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <label x="121.92" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_4" gate="A" pin="2"/>
-<wire x1="15.24" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<label x="25.4" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_EN" class="0">
@@ -3512,11 +3507,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="146.05" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="124.46" y="83.82" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_4" gate="A" pin="1"/>
-<wire x1="15.24" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="25.4" y="30.48" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MCU_SWDIO" class="0">
 <segment>
@@ -3524,11 +3514,6 @@ general purpose rectifier, 1 A</description>
 <wire x1="151.13" y1="86.36" x2="151.13" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="151.13" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
 <label x="124.46" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="ACC_PORT_5" gate="A" pin="2"/>
-<wire x1="15.24" y1="10.16" x2="27.94" y2="10.16" width="0.1524" layer="91"/>
-<label x="25.4" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_SWCLK/RST" class="0">
@@ -3538,17 +3523,12 @@ general purpose rectifier, 1 A</description>
 <wire x1="156.21" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <label x="124.46" y="73.66" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="ACC_PORT_5" gate="A" pin="1"/>
-<wire x1="15.24" y1="7.62" x2="27.94" y2="7.62" width="0.1524" layer="91"/>
-<label x="25.4" y="7.62" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="CUTDOWN_RETURN" class="0">
 <segment>
 <pinref part="CUTDOWN" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="22.86" y="124.46" size="1.778" layer="95"/>
+<wire x1="15.24" y1="96.52" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<label x="22.86" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="D"/>
@@ -3586,11 +3566,16 @@ general purpose rectifier, 1 A</description>
 <junction x="66.04" y="68.58"/>
 </segment>
 </net>
-<net name="IMU_INT" class="0">
+<net name="RUDDER_SERVO_PWM_5V" class="0">
 <segment>
-<pinref part="ACC_PORT_3" gate="A" pin="1"/>
-<wire x1="15.24" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
-<label x="25.4" y="53.34" size="1.778" layer="95"/>
+<pinref part="U$6" gate="G$1" pin="B4"/>
+<wire x1="172.72" y1="58.42" x2="179.07" y2="58.42" width="0.1524" layer="91"/>
+<label x="173.99" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SERVO_CONTROL" gate="A" pin="2"/>
+<wire x1="15.24" y1="125.73" x2="27.94" y2="125.73" width="0.1524" layer="91"/>
+<label x="25.4" y="125.73" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

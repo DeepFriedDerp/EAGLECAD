@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1938,6 +1938,9 @@ Based on  the following source:
 <part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 <part name="CUTDOWN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="/90" package3d_urn="urn:adsk.eagle:package:22437/2"/>
+<part name="SD_POWER1" library="Adafruit_Arduino" deviceset="3.3V_NCH_FET" device=""/>
+<part name="R5" library="ERA-3AEB104V" deviceset="ERA-3AEB104V" device=""/>
+<part name="R6" library="ERA-3AEB104V" deviceset="ERA-3AEB104V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2021,6 +2024,15 @@ Based on  the following source:
 <instance part="CUTDOWN" gate="G$1" x="-88.9" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="-82.55" y="78.105" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-82.55" y="88.9" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SD_POWER1" gate="G$1" x="195.58" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="207.518" y="42.926" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="R5" gate="G$1" x="205.74" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.55565" y="59.45918125" size="1.780640625" layer="95" rot="R180"/>
+</instance>
+<instance part="R6" gate="G$1" x="198.12" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="196.84435" y="59.92081875" size="1.780640625" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -2229,6 +2241,14 @@ Based on  the following source:
 <pinref part="JP3" gate="A" pin="1"/>
 <wire x1="-142.24" y1="-15.24" x2="-127" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-134.62" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="63.5" x2="215.9" y2="63.5" width="0.1524" layer="91"/>
+<label x="205.74" y="63.5" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
+<junction x="205.74" y="63.5"/>
 </segment>
 </net>
 <net name="MCU_TX_3V" class="0">
@@ -2977,6 +2997,23 @@ Based on  the following source:
 <segment>
 <pinref part="CUTDOWN" gate="G$1" pin="1"/>
 <wire x1="-86.36" y1="81.28" x2="-73.66" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CUTDOWN" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="SD_POWER1" gate="G$1" pin="G"/>
+<wire x1="205.74" y1="53.34" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
+<junction x="205.74" y="50.8"/>
+<label x="208.28" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="SD_POWER1" gate="G$1" pin="S"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

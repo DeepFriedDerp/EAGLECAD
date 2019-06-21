@@ -3028,6 +3028,12 @@ general purpose rectifier, 1 A</description>
 <wire x1="146.05" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
 <label x="134.62" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$8" gate="A" pin="4"/>
+<wire x1="166.37" y1="86.36" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="166.37" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="177.8" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GPS_EN_5V" class="0">
 <segment>
@@ -3291,14 +3297,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="U$8" gate="A" pin="A4"/>
 <wire x1="135.89" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="106.68" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPS_EN" class="0">
-<segment>
-<pinref part="U$8" gate="A" pin="4"/>
-<wire x1="166.37" y1="86.36" x2="166.37" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="166.37" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
-<label x="177.8" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RUDDER_POT_VAR" class="0">
