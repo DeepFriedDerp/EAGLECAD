@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -678,9 +678,9 @@
 <net name="SPI_MISO" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO12"/>
-<wire x1="114.3" y1="60.8584" x2="114.3" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="67.31" x2="80.01" y2="67.31" width="0.1524" layer="91"/>
-<label x="80.01" y="67.31" size="1.778" layer="95"/>
+<wire x1="114.3" y1="60.8584" x2="114.3" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="77.47" x2="80.01" y2="77.47" width="0.1524" layer="91"/>
+<label x="80.01" y="77.47" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -694,49 +694,49 @@
 <net name="SPI_CLK" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO2"/>
-<wire x1="118.9482" y1="22.8346" x2="118.9482" y2="11.43" width="0.1524" layer="91"/>
-<wire x1="118.9482" y1="11.43" x2="80.01" y2="11.43" width="0.1524" layer="91"/>
-<label x="80.01" y="11.43" size="1.778" layer="95"/>
+<wire x1="118.9482" y1="22.8346" x2="118.9482" y2="1.27" width="0.1524" layer="91"/>
+<wire x1="118.9482" y1="1.27" x2="80.01" y2="1.27" width="0.1524" layer="91"/>
+<label x="80.01" y="1.27" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_RST" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="RST"/>
-<wire x1="111.76" y1="60.8584" x2="111.76" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="64.77" x2="80.01" y2="64.77" width="0.1524" layer="91"/>
-<label x="80.01" y="64.77" size="1.778" layer="95"/>
+<wire x1="111.76" y1="60.8584" x2="111.76" y2="74.93" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="74.93" x2="80.01" y2="74.93" width="0.1524" layer="91"/>
+<label x="80.01" y="74.93" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_CUTDOWN" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO5"/>
-<wire x1="111.3282" y1="22.8346" x2="111.3282" y2="16.51" width="0.1524" layer="91"/>
-<wire x1="111.3282" y1="16.51" x2="80.01" y2="16.51" width="0.1524" layer="91"/>
-<label x="80.01" y="16.51" size="1.778" layer="95"/>
+<wire x1="111.3282" y1="22.8346" x2="111.3282" y2="8.89" width="0.1524" layer="91"/>
+<wire x1="111.3282" y1="8.89" x2="80.01" y2="8.89" width="0.1524" layer="91"/>
+<label x="80.01" y="8.89" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_CS" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO3"/>
-<wire x1="116.4082" y1="22.8346" x2="116.4082" y2="13.97" width="0.1524" layer="91"/>
-<wire x1="116.4082" y1="13.97" x2="80.01" y2="13.97" width="0.1524" layer="91"/>
-<label x="80.01" y="13.97" size="1.778" layer="95"/>
+<wire x1="116.4082" y1="22.8346" x2="116.4082" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="116.4082" y1="3.81" x2="80.01" y2="3.81" width="0.1524" layer="91"/>
+<label x="80.01" y="3.81" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_ATTN" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO1"/>
-<wire x1="121.4882" y1="22.8346" x2="121.4882" y2="8.89" width="0.1524" layer="91"/>
-<wire x1="121.4882" y1="8.89" x2="80.01" y2="8.89" width="0.1524" layer="91"/>
-<label x="80.01" y="8.89" size="1.778" layer="95"/>
+<wire x1="121.4882" y1="22.8346" x2="121.4882" y2="-1.27" width="0.1524" layer="91"/>
+<wire x1="121.4882" y1="-1.27" x2="80.01" y2="-1.27" width="0.1524" layer="91"/>
+<label x="80.01" y="-1.27" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XBEE_CMD" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="DIO0"/>
-<wire x1="124.0282" y1="22.8346" x2="124.0282" y2="6.35" width="0.1524" layer="91"/>
-<wire x1="124.0282" y1="6.35" x2="80.01" y2="6.35" width="0.1524" layer="91"/>
-<label x="80.01" y="6.35" size="1.778" layer="95"/>
+<wire x1="124.0282" y1="22.8346" x2="124.0282" y2="-3.81" width="0.1524" layer="91"/>
+<wire x1="124.0282" y1="-3.81" x2="80.01" y2="-3.81" width="0.1524" layer="91"/>
+<label x="80.01" y="-3.81" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

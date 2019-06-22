@@ -632,19 +632,26 @@ Note, you may also be interested in the "MAGJACK" version of this. It is basical
 <sheets>
 <sheet>
 <plain>
+<wire x1="0" y1="0" x2="0" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="0" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="97"/>
+<wire x1="109.22" y1="66.04" x2="109.22" y2="0" width="0.1524" layer="97"/>
+<wire x1="109.22" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
+<text x="7.62" y="53.34" size="1.778" layer="97">BNO055 IMU BREAKOUT
+DESIGNED JUNE 2019
+EMSSL BALLOON TEAM</text>
 </plain>
 <instances>
-<instance part="USB_MCU_2_IMU2" gate="G$1" x="22.86" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="46.99" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="22.86" y="63.5" size="1.778" layer="96" rot="R180"/>
+<instance part="USB_MCU_2_IMU2" gate="G$1" x="10.16" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="31.75" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="10.16" y="48.26" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IMU2" gate="G$1" x="80.01" y="34.29" smashed="yes"/>
-<instance part="ETH_MCU_2_IMU2" gate="JP1" x="17.78" y="22.86" smashed="yes" rot="R180">
-<attribute name="NAME" x="30.48" y="12.192" size="1.778" layer="95" rot="R180"/>
+<instance part="IMU2" gate="G$1" x="72.39" y="31.75" smashed="yes"/>
+<instance part="ETH_MCU_2_IMU2" gate="JP1" x="17.78" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="30.48" y="4.572" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="IMU2_ADDR_JMPR" gate="1" x="96.52" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="111.76" y="58.42" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="99.06" y="64.77" size="1.778" layer="96" rot="R180"/>
+<instance part="IMU2_ADDR_JMPR" gate="1" x="88.9" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="104.14" y="55.88" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="91.44" y="62.23" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -653,141 +660,141 @@ Note, you may also be interested in the "MAGJACK" version of this. It is basical
 <net name="IMU2_GND_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="19.05" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="12.7" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
-<label x="58.42" y="12.7" size="1.778" layer="95"/>
+<wire x1="71.12" y1="16.51" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="10.16" x2="58.42" y2="10.16" width="0.1524" layer="91"/>
+<label x="50.8" y="10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="USB_MCU_2_IMU2" gate="G$1" pin="3"/>
-<wire x1="25.4" y1="55.88" x2="35.56" y2="55.88" width="0.1524" layer="91"/>
-<label x="27.94" y="55.88" size="1.778" layer="95"/>
+<wire x1="12.7" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="15.24" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="6"/>
-<wire x1="25.4" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<label x="30.48" y="27.94" size="1.778" layer="95"/>
+<wire x1="25.4" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
+<label x="30.48" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU2_INT_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="INT"/>
-<wire x1="81.28" y1="49.53" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
-<label x="55.88" y="58.42" size="1.778" layer="95"/>
+<wire x1="73.66" y1="46.99" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<label x="48.26" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="7"/>
-<wire x1="25.4" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.778" layer="95"/>
+<wire x1="25.4" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+<label x="30.48" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU2_PS1_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="PS1"/>
-<wire x1="78.74" y1="49.53" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<label x="55.88" y="55.88" size="1.778" layer="95"/>
+<wire x1="71.12" y1="46.99" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<label x="48.26" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="1"/>
-<wire x1="25.4" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
-<label x="30.48" y="15.24" size="1.778" layer="95"/>
+<wire x1="25.4" y1="7.62" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
+<label x="30.48" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU2_PS0_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="PS0"/>
-<wire x1="76.2" y1="49.53" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
-<label x="55.88" y="53.34" size="1.778" layer="95"/>
+<wire x1="68.58" y1="46.99" x2="68.58" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<label x="48.26" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="2"/>
-<wire x1="25.4" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
-<label x="30.48" y="17.78" size="1.778" layer="95"/>
+<wire x1="25.4" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="91"/>
+<label x="30.48" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU2_RST_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="RST"/>
-<wire x1="86.36" y1="19.05" x2="86.36" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
-<label x="55.88" y="5.08" size="1.778" layer="95"/>
+<wire x1="78.74" y1="16.51" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="2.54" x2="58.42" y2="2.54" width="0.1524" layer="91"/>
+<label x="48.26" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="3"/>
-<wire x1="25.4" y1="20.32" x2="38.1" y2="20.32" width="0.1524" layer="91"/>
-<label x="30.48" y="20.32" size="1.778" layer="95"/>
+<wire x1="25.4" y1="12.7" x2="38.1" y2="12.7" width="0.1524" layer="91"/>
+<label x="30.48" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IMU2_ADDR_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="ADDR"/>
-<wire x1="83.82" y1="49.53" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<label x="66.04" y="60.96" size="1.778" layer="95"/>
+<wire x1="76.2" y1="46.99" x2="76.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="58.42" y="58.42" size="1.778" layer="95"/>
 <pinref part="IMU2_ADDR_JMPR" gate="1" pin="2"/>
-<wire x1="83.82" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
-<junction x="83.82" y="60.96"/>
+<wire x1="76.2" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<junction x="76.2" y="58.42"/>
 </segment>
 </net>
 <net name="I2C_SCL_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="SCL"/>
-<wire x1="83.82" y1="19.05" x2="83.82" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
-<label x="58.42" y="7.62" size="1.778" layer="95"/>
+<wire x1="76.2" y1="16.51" x2="76.2" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="5.08" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
+<label x="50.8" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="USB_MCU_2_IMU2" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
-<label x="27.94" y="50.8" size="1.778" layer="95"/>
+<wire x1="12.7" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<label x="15.24" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="4"/>
-<wire x1="25.4" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<label x="30.48" y="22.86" size="1.778" layer="95"/>
+<wire x1="25.4" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
+<label x="30.48" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2C_SDA_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="SDA"/>
-<wire x1="81.28" y1="19.05" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="10.16" x2="66.04" y2="10.16" width="0.1524" layer="91"/>
-<label x="58.42" y="10.16" size="1.778" layer="95"/>
+<wire x1="73.66" y1="16.51" x2="73.66" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
+<label x="50.8" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="USB_MCU_2_IMU2" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
-<label x="27.94" y="53.34" size="1.778" layer="95"/>
+<wire x1="12.7" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="15.24" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="5"/>
-<wire x1="25.4" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
-<label x="30.48" y="25.4" size="1.778" layer="95"/>
+<wire x1="25.4" y1="17.78" x2="38.1" y2="17.78" width="0.1524" layer="91"/>
+<label x="30.48" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V_IMU" class="0">
 <segment>
 <pinref part="IMU2" gate="G$1" pin="VIN"/>
-<wire x1="73.66" y1="19.05" x2="73.66" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
-<label x="66.04" y="15.24" size="1.778" layer="95"/>
+<wire x1="66.04" y1="16.51" x2="66.04" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="12.7" x2="58.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="58.42" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="USB_MCU_2_IMU2" gate="G$1" pin="4"/>
-<wire x1="25.4" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
-<label x="27.94" y="58.42" size="1.778" layer="95"/>
+<wire x1="12.7" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="15.24" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ETH_MCU_2_IMU2" gate="JP1" pin="8"/>
-<wire x1="25.4" y1="33.02" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
-<label x="30.48" y="33.02" size="1.778" layer="95"/>
+<wire x1="25.4" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
+<label x="30.48" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IMU2_ADDR_JMPR" gate="1" pin="1"/>
-<wire x1="101.6" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<label x="104.14" y="60.96" size="1.778" layer="95"/>
+<wire x1="93.98" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
+<label x="96.52" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -796,6 +803,10 @@ Note, you may also be interested in the "MAGJACK" version of this. It is basical
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

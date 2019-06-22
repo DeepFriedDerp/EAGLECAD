@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1347,22 +1347,24 @@ design rules under a new name.</description>
 <contactref element="RUDDER_FEEDBACK" pad="4"/>
 <wire x1="61.18" y1="9.54" x2="60.98" y2="9.74" width="0.508" layer="16"/>
 <wire x1="60.98" y1="9.74" x2="59.69" y2="9.74" width="0.508" layer="16"/>
+<wire x1="75.98" y1="17.13" x2="76.18" y2="16.93" width="0.254" layer="16"/>
+<wire x1="76.18" y1="16.93" x2="77.47" y2="16.93" width="0.254" layer="16"/>
+<wire x1="39.37" y1="12.28" x2="39.57" y2="12.08" width="0.254" layer="16"/>
+<wire x1="39.57" y1="12.08" x2="40.86" y2="12.08" width="0.254" layer="16"/>
 <wire x1="148.59" y1="64.77" x2="155.956" y2="90.17" width="0" layer="19" extent="1-1"/>
 <wire x1="117.59" y1="81.36" x2="148.59" y2="64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="113.78" y1="81.36" x2="117.59" y2="81.36" width="0" layer="19" extent="1-1"/>
 <wire x1="109.474" y1="7.62" x2="148.59" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="61.18" y1="9.54" x2="109.474" y2="7.62" width="0" layer="19" extent="16-16"/>
-<wire x1="11.43" y1="21.59" x2="59.69" y2="9.74" width="0" layer="19" extent="16-16"/>
-<wire x1="11.43" y1="54.61" x2="11.43" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="77.47" y1="16.93" x2="109.474" y2="7.62" width="0" layer="19" extent="16-16"/>
+<wire x1="61.18" y1="9.54" x2="75.98" y2="17.13" width="0" layer="19" extent="16-16"/>
+<wire x1="40.86" y1="12.08" x2="59.69" y2="9.74" width="0" layer="19" extent="16-16"/>
+<wire x1="19.05" y1="32.17" x2="39.37" y2="12.28" width="0" layer="19" extent="16-16"/>
+<wire x1="17.56" y1="32.37" x2="19.05" y2="32.17" width="0" layer="19" extent="16-16"/>
+<wire x1="11.43" y1="21.59" x2="17.56" y2="32.37" width="0" layer="19" extent="16-16"/>
+<wire x1="11.43" y1="54.61" x2="17.56" y2="32.37" width="0" layer="19" extent="16-16"/>
 <wire x1="11.43" y1="62.23" x2="11.43" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="59.69" x2="11.43" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="27.94" y1="81.28" x2="11.43" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="40.86" y1="12.08" x2="113.78" y2="81.36" width="0" layer="19" extent="16-16"/>
-<wire x1="17.56" y1="32.37" x2="40.86" y2="12.08" width="0" layer="19" extent="16-16"/>
-<wire x1="75.98" y1="17.13" x2="17.56" y2="32.37" width="0" layer="19" extent="16-16"/>
-<wire x1="19.05" y1="32.17" x2="75.98" y2="17.13" width="0" layer="19" extent="16-16"/>
-<wire x1="77.47" y1="16.93" x2="19.05" y2="32.17" width="0" layer="19" extent="16-16"/>
-<wire x1="39.37" y1="12.28" x2="77.47" y2="16.93" width="0" layer="19" extent="16-16"/>
+<wire x1="43.18" y1="59.69" x2="27.94" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MCU_TX_3V">
 <contactref element="U$8" pad="13"/>
@@ -1381,11 +1383,16 @@ design rules under a new name.</description>
 <contactref element="IMU2_2_MCU" pad="2"/>
 <contactref element="U$4" pad="MOSI"/>
 <wire x1="68.58" y1="59.69" x2="68.58" y2="48.26" width="0.508" layer="1"/>
-<wire x1="65.3796" y1="16.51" x2="68.58" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="72.39" y1="15.24" x2="65.3796" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="109.474" y1="12.7" x2="72.39" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="12.87" y1="36.56" x2="65.3796" y2="16.51" width="0" layer="19" extent="1-1"/>
 <via x="68.58" y="48.26" extent="1-16" drill="0.35"/>
+<wire x1="109.474" y1="12.7" x2="91.63145" y2="12.7" width="0.254" layer="1"/>
+<wire x1="91.63145" y1="12.7" x2="90.59805" y2="11.6666" width="0.254" layer="1"/>
+<wire x1="90.59805" y1="11.6666" x2="81.28" y2="11.6666" width="0.254" layer="1"/>
+<wire x1="81.28" y1="11.6666" x2="75.9634" y2="11.6666" width="0.254" layer="1"/>
+<wire x1="75.9634" y1="11.6666" x2="72.39" y2="15.24" width="0.254" layer="1"/>
+<wire x1="72.39" y1="15.24" x2="66.6496" y2="15.24" width="0.254" layer="1"/>
+<wire x1="66.6496" y1="15.24" x2="65.3796" y2="16.51" width="0.254" layer="1"/>
+<wire x1="81.28" y1="11.6666" x2="68.58" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="12.87" y1="36.56" x2="65.3796" y2="16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C_SCL">
 <contactref element="U$8" pad="11"/>
@@ -1394,11 +1401,13 @@ design rules under a new name.</description>
 <contactref element="IMU2_2_MCU" pad="1"/>
 <contactref element="U$4" pad="SCK"/>
 <wire x1="66.04" y1="59.69" x2="66.04" y2="49.53" width="0.508" layer="1"/>
-<wire x1="72.39" y1="12.7" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="65.3796" y1="11.43" x2="72.39" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="109.474" y1="10.16" x2="72.39" y2="12.7" width="0" layer="19" extent="1-1"/>
-<wire x1="12.87" y1="39.06" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
 <via x="66.04" y="49.53" extent="1-16" drill="0.35"/>
+<wire x1="109.474" y1="10.16" x2="74.93" y2="10.16" width="0.254" layer="1"/>
+<wire x1="74.93" y1="10.16" x2="72.39" y2="12.7" width="0.254" layer="1"/>
+<wire x1="72.39" y1="12.7" x2="66.6496" y2="12.7" width="0.254" layer="1"/>
+<wire x1="66.6496" y1="12.7" x2="65.3796" y2="11.43" width="0.254" layer="1"/>
+<wire x1="66.6496" y1="12.7" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="12.87" y1="39.06" x2="66.04" y2="49.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI_MISO">
 <contactref element="U$8" pad="21"/>
@@ -1464,22 +1473,24 @@ design rules under a new name.</description>
 <contactref element="SD_POWER" pad="G"/>
 <contactref element="R1" pad="1"/>
 <contactref element="U$8" pad="16"/>
-<wire x1="39.37" y1="10.58" x2="73.66" y2="54.61" width="0" layer="19" extent="1-1"/>
-<wire x1="40.86" y1="10.78" x2="39.37" y2="10.58" width="0" layer="19" extent="1-1"/>
+<wire x1="39.37" y1="10.58" x2="40.66" y2="10.58" width="0.254" layer="16"/>
+<wire x1="40.66" y1="10.58" x2="40.86" y2="10.78" width="0.254" layer="16"/>
+<wire x1="40.86" y1="10.78" x2="73.66" y2="54.61" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SD_GND">
 <contactref element="U$2" pad="GND"/>
 <contactref element="SD_POWER" pad="D"/>
-<wire x1="42.96" y1="11.43" x2="44.704" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="42.96" y1="11.43" x2="44.704" y2="11.43" width="0.254" layer="16"/>
 </signal>
 <signal name="IMU1_PWR">
 <contactref element="R3" pad="1"/>
 <contactref element="IMU1_POWER" pad="G"/>
 <contactref element="U$8" pad="5"/>
 <wire x1="50.8" y1="59.69" x2="50.8" y2="55.88" width="0.508" layer="1"/>
-<wire x1="77.47" y1="18.63" x2="75.98" y2="18.43" width="0" layer="19" extent="16-16"/>
-<wire x1="50.8" y1="59.69" x2="75.98" y2="18.43" width="0" layer="19" extent="16-16"/>
 <via x="50.8" y="55.88" extent="1-16" drill="0.35"/>
+<wire x1="75.98" y1="18.43" x2="77.27" y2="18.43" width="0.254" layer="16"/>
+<wire x1="77.27" y1="18.43" x2="77.47" y2="18.63" width="0.254" layer="16"/>
+<wire x1="75.98" y1="18.43" x2="50.8" y2="55.88" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="ALT_PWR">
 <contactref element="R2" pad="1"/>
@@ -1515,7 +1526,7 @@ design rules under a new name.</description>
 <signal name="IMU1_GND">
 <contactref element="IMU1_POWER" pad="D"/>
 <contactref element="IMU1" pad="GND"/>
-<wire x1="72.39" y1="17.78" x2="73.88" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="17.78" x2="73.88" y2="17.78" width="0.254" layer="16"/>
 </signal>
 <signal name="IMU2_PWR">
 <contactref element="IMU2_POWER" pad="G"/>

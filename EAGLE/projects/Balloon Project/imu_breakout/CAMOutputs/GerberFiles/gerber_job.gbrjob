@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-06-22T04:32:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "IMU2_BREAKOUT"
+        },
+        "Owner": "Austin Motes <agmotes@ncsu.edu>",
+        "Size": {
+            "X": 51,
+            "Y": 34
+        }
+    }
+}
