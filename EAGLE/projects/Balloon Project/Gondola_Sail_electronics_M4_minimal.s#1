@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2570,6 +2570,8 @@ general purpose rectifier, 1 A</description>
 <wire x1="304.8" y1="228.6" x2="304.8" y2="0" width="0.1524" layer="97"/>
 <wire x1="304.8" y1="0" x2="0" y2="0" width="0.1524" layer="97"/>
 <text x="177.8" y="218.44" size="6.4516" layer="97">SENSOR_PACK SCHEMATIC</text>
+<text x="200.66" y="195.58" size="6.4516" layer="97">DESIGNED JUNE 2019
+EMSSL BALLOON TEAM</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="215.9" y="97.79" smashed="yes"/>

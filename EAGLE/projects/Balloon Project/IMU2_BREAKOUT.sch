@@ -800,6 +800,10 @@ EMSSL BALLOON TEAM</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,14.0106,37.5183,USB_MCU_2_IMU2,,,,,"/>
+<approved hash="113,1,92.1173,56.8096,IMU2_ADDR_JMPR,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

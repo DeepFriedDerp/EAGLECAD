@@ -2763,9 +2763,9 @@ EMSSL BALLOON TEAM</text>
 <label x="226.06" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SERVO_CONTROL" gate="A" pin="3"/>
-<wire x1="15.24" y1="128.27" x2="27.94" y2="128.27" width="0.1524" layer="91"/>
-<label x="25.4" y="128.27" size="1.778" layer="95"/>
+<pinref part="SERVO_CONTROL" gate="A" pin="2"/>
+<wire x1="15.24" y1="125.73" x2="27.94" y2="125.73" width="0.1524" layer="91"/>
+<label x="25.4" y="125.73" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BATT_GND" class="0">
@@ -3609,14 +3609,49 @@ EMSSL BALLOON TEAM</text>
 <label x="173.99" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SERVO_CONTROL" gate="A" pin="2"/>
-<wire x1="15.24" y1="125.73" x2="27.94" y2="125.73" width="0.1524" layer="91"/>
-<label x="25.4" y="125.73" size="1.778" layer="95"/>
+<pinref part="SERVO_CONTROL" gate="A" pin="3"/>
+<wire x1="15.24" y1="128.27" x2="27.94" y2="128.27" width="0.1524" layer="91"/>
+<label x="25.4" y="128.27" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="106,1,135.89,142.24,ACC_MCU_A0,,,,,"/>
+<approved hash="106,1,135.89,137.16,ACC_MCU_A1,,,,,"/>
+<approved hash="106,1,135.89,116.84,ACC_MCU_A5,,,,,"/>
+<approved hash="106,1,223.52,30.734,ADC_ACC_A2,,,,,"/>
+<approved hash="106,1,226.06,30.734,ADC_ACC_A3,,,,,"/>
+<approved hash="106,1,213.36,30.734,ADC_ADDR,,,,,"/>
+<approved hash="106,1,215.9,30.734,ADC_ALRT,,,,,"/>
+<approved hash="106,1,111.76,22.098,ALT_MISO,,,,,"/>
+<approved hash="106,1,116.84,22.098,AL_CS,,,,,"/>
+<approved hash="106,1,213.36,75.692,GPS_FIX_5V,,,,,"/>
+<approved hash="106,1,226.06,75.692,GPS_PPS_5V,,,,,"/>
+<approved hash="106,1,93.98,158.75,IMU1_INT,,,,,"/>
+<approved hash="106,1,88.9,158.75,IMU1_PS0,,,,,"/>
+<approved hash="106,1,91.44,158.75,IMU1_PS1,,,,,"/>
+<approved hash="106,1,99.06,128.27,IMU1_RST,,,,,"/>
+<approved hash="106,1,135.89,152.4,MCU_AREF,,,,,"/>
+<approved hash="106,1,146.05,86.36,MCU_EN,,,,,"/>
+<approved hash="106,1,135.89,162.56,MCU_RST,,,,,"/>
+<approved hash="106,1,156.21,86.36,MCU_SWCLK/RST,,,,,"/>
+<approved hash="106,1,151.13,86.36,MCU_SWDIO,,,,,"/>
+<approved hash="106,1,147.32,55.88,N$1,,,,,"/>
+<approved hash="106,1,172.72,55.88,N$2,,,,,"/>
+<approved hash="106,1,222.25,138.938,SD_CD,,,,,"/>
+<approved hash="113,1,17.3355,215.318,IMU2_2_MCU,,,,,"/>
+<approved hash="113,1,17.9226,195.354,PITOT_2_MCU,,,,,"/>
+<approved hash="113,1,15.0029,108.994,BATT,,,,,"/>
+<approved hash="113,1,18.2529,168.684,XBEE_2_MCU,,,,,"/>
+<approved hash="113,1,17.4847,96.2939,CUTDOWN,,,,,"/>
+<approved hash="113,1,281.329,43.18,REGULATOR_2_BATTERY_JUMPER,,,,,"/>
+<approved hash="113,1,22.5505,143.284,RUDDER_FEEDBACK,,,,,"/>
+<approved hash="113,1,20.3829,124.234,SERVO_CONTROL,,,,,"/>
+<approved hash="113,1,59.8238,35.56,PITOT_OCS_JUMPER_ON,,,,,"/>
+<approved hash="113,1,59.19,15.24,PITOT_OCS_JUMPER_OFF,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

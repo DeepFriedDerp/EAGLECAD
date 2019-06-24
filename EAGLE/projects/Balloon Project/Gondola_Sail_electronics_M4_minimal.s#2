@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2559,6 +2559,8 @@ general purpose rectifier, 1 A</description>
 <part name="REGULATOR_2_BATTERY_JUMPER" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 <part name="RUDDER_FEEDBACK" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="/90" package3d_urn="urn:adsk.eagle:package:22467/2"/>
 <part name="SERVO_CONTROL" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="/90" package3d_urn="urn:adsk.eagle:package:22459/2"/>
+<part name="PITOT_OCS_JUMPER_ON" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="PITOT_OCS_JUMPER_OFF" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2656,6 +2658,14 @@ general purpose rectifier, 1 A</description>
 <attribute name="NAME" x="31.75" y="120.015" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="19.05" y="133.35" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="PITOT_OCS_JUMPER_ON" gate="1" x="76.2" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.66" y="35.56" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="PITOT_OCS_JUMPER_OFF" gate="1" x="76.2" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="73.66" y="15.24" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="80.01" y="12.7" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2720,6 +2730,12 @@ general purpose rectifier, 1 A</description>
 <pinref part="RUDDER_FEEDBACK" gate="A" pin="5"/>
 <wire x1="15.24" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
 <label x="25.4" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PITOT_OCS_JUMPER_ON" gate="1" pin="1"/>
+<wire x1="76.2" y1="30.48" x2="76.2" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
+<label x="66.04" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -2896,6 +2912,12 @@ general purpose rectifier, 1 A</description>
 <pinref part="RUDDER_FEEDBACK" gate="A" pin="4"/>
 <wire x1="15.24" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <label x="25.4" y="147.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PITOT_OCS_JUMPER_OFF" gate="1" pin="1"/>
+<wire x1="76.2" y1="10.16" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
+<label x="60.96" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCU_TX_3V" class="0">
@@ -3384,6 +3406,18 @@ general purpose rectifier, 1 A</description>
 <pinref part="PITOT_2_MCU" gate="A" pin="1"/>
 <wire x1="15.24" y1="193.04" x2="27.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="22.86" y="193.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PITOT_OCS_JUMPER_ON" gate="1" pin="2"/>
+<wire x1="76.2" y1="40.64" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="43.18" x2="66.04" y2="43.18" width="0.1524" layer="91"/>
+<label x="60.96" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PITOT_OCS_JUMPER_OFF" gate="1" pin="2"/>
+<wire x1="76.2" y1="20.32" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<label x="60.96" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ACC_MCU_A0" class="0">

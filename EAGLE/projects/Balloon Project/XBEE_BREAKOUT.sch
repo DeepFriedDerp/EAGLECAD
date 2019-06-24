@@ -942,6 +942,9 @@ EMSSL BALLOON TEAM</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,43.4171,30.7061,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
