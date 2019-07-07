@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-01T17:31:58Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Gondola_Sail_electronics_M4_minimal"
+        },
+        "Owner": "Austin Motes <agmotes@ncsu.edu>",
+        "Size": {
+            "X": 114,
+            "Y": 100
+        }
+    }
+}
